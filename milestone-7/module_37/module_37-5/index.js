@@ -1,0 +1,7 @@
+// console.log(1111)
+// console.log(2222)
+// fetch('https://jsonplaceholder.typicode.com/todos/1')
+// .then(res => res.json())
+// .then(data => console.log(data))
+// console.log(3333)
+// console.log(4444)

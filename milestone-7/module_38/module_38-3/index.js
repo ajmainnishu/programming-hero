@@ -1,4 +1,11 @@
 // const pageLocation = () => {
+//     console.log(location)
+// }
+
+
+
+
+// const pageLocation = () => {
 //     location.reload()
 // }
 

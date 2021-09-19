@@ -1,0 +1,14 @@
+/* .countries {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+.country img {
+    max-width: 200px;
+}
+.country {
+    border: 3px solid goldenrod;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: gainsboro;
+} */

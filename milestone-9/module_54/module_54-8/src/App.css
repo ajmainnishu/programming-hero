@@ -1,0 +1,10 @@
+.App {
+    text-align: center;
+}
+
+div {
+    border: 2px solid goldenrod;
+    margin: 10px 20px;
+    padding: 5px 10px;
+    border-radius: 15px;
+}

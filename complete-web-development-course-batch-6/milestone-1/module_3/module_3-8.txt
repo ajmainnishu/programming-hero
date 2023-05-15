@@ -1,0 +1,9 @@
+git branch
+git branch image-add
+git checkout image-add
+git add .
+git commit -m "image add"
+git push --set-upstream origin image-add
+git checkout main
+git merge image-add
+git push

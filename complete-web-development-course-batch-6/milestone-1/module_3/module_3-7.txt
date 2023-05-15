@@ -1,0 +1,1 @@
+git remote set-url <remote_name> <ssh_remote_url>

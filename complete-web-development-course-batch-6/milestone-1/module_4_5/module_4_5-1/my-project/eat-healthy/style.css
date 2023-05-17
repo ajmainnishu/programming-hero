@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.btn-primary {
+    background-color: rgb(255, 69, 0);
+    padding: 15px 25px;
+    border-radius: 35px;
+    border: none;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    box-shadow: 0 2px 10px rgba(255, 68, 0, 0.74);
+    font-size: 20px;
+}
+.section-width {
+    width: 90%;
+    margin: 0 auto;
+}
+.section-title {
+    font-size: 40px;
+    color: gray;
+}
+
+
+
+/* header section */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+}
+.header-half {
+    align-self: center;
+
+}
+.header-title {
+    font-size: 59px;
+    margin: 20px 0;
+}
+.header-description {
+    color: gray;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 10px 0;
+}
+.header-button {
+    margin-top: 50px;
+}
+
+
+.header-img img{
+    width: 100%;
+}
+
+
+
+.about {
+    background-image: url(./images/shapes/7.png);
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    margin-top: 100px;
+    background-size: 100%;
+}
+.about-container {
+    display: flex;
+    gap: 200px;
+}
+.about-img {
+    width: 45%;
+}
+.about-img img {
+    width: 50%;
+    padding-left: 200px;
+}
+.about-letter {
+    width:45%;
+    align-self: center;
+}
+.about-description {
+    font-size: 18px;
+}
+.about-button {
+    margin-top: 50px;
+}
+
+
+
+
+/* receipe section */
+.recipes-title {
+    text-align: center;
+    margin-top: 100px;
+}
+.recipes-description {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 18px;
+}
+.recipes-container {
+    display: flex;
+    justify-content: space-between;
+}
+.recipes-half {
+    width: 40%;
+    margin: 50px 0;
+    padding: 35px;
+    box-shadow: 20px 20px 100px gainsboro;
+    border-radius: 20px;
+
+}
+.recipes-half img {
+    width: 100%;
+}
+.recipes {
+    width: 90%;
+    margin: 0 auto;
+}
+.res-con-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.res-con-des {
+    font-size: 18px;
+}
+
+
+.container-box {
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 20px 20px 100px gainsboro;
+    border-radius: 10px;
+    margin-bottom: 90px;
+    padding-bottom: 20px;
+}
+.container-title {
+    font-size: 35px;
+    margin: 30px 0 10px 0;
+}
+
+
+
+
+/* footer sectoin */
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px 0 40px 0;
+}
+.text-orange {
+    color: orange;
+}
+.text-gray {
+    color: gray;
+}

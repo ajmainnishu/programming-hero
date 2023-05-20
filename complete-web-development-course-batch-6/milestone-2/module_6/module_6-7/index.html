@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS specificity, style priority and !important</title>
+    <style>
+        /* h1 {
+            color: aquamarine;
+        }
+        h1 {
+            color: cadetblue;
+        }
+        h1 {
+            color: blue;
+        } */
+
+        /* .class-h1 {
+            color: blueviolet;
+        }
+        h1 {
+            color: yellowgreen;
+        } */
+
+    
+        /* #id-h1 {
+            color: brown;
+        }
+        .class-h1 {
+            color: blueviolet;
+        }
+        h1 {
+            color: yellowgreen;
+        } */
+
+
+        /* #id-h1 {
+            color: brown;
+        }
+        .class-h1 {
+            color: blueviolet;
+        }
+        h1 {
+            color: yellowgreen !important;
+        } */
+
+
+        #id-h1 {
+            color: brown;
+        }
+        .class-h1 {
+            color: blueviolet;
+        }
+        h1 {
+            color: yellowgreen;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- <h1>My heading number-1</h1>
+    <h1 class="class-h1">My heading number-2</h1>
+    <h1>My heading number-3</h1>
+    <h1>My heading number-4</h1> -->
+
+
+    
+
+    <h1>My heading number-1</h1>
+    <h1 id="id-h1" class="class-h1" style="color: black;">My heading number-2</h1>
+    <h1>My heading number-3</h1>
+    <h1>My heading number-4</h1>
+
+</body>
+</html>

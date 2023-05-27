@@ -1,0 +1,317 @@
+/* google font link */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Manrope:wght@700&family=Poppins:wght@500;600;700&display=swap');
+
+
+
+
+/* common */
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFF;
+}
+
+
+
+
+/* header section start */
+header {
+    color: #3A3A3A;
+    padding: 0 8.33%;
+}
+
+/* navigation section start */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2.63% 0;
+}
+.nav-brand p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    margin: 0;
+}
+.nav-anchor {
+    display: flex;
+    column-gap: 34px;
+}
+.nav-anchor p {
+    margin: 0;
+}
+/* navigation section end */
+
+
+/* header banner section start */
+.header-banner {
+    display: flex;
+    justify-content: space-between;
+}
+.header-banner h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 52px;
+    margin-bottom: 0;
+}
+.header-banner p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    padding-right: 13.13%;
+}
+.header-banner a {
+    color: #FFF;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    border-radius: 41px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.header-banner i {
+    margin-left: 8px;
+}
+.header-banner-img {
+    background-image: url(./files/images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.header-banner img{
+    max-width: 440px;
+    max-height: 414px;
+}
+/* header banner section end */
+/* header section end */
+
+
+
+
+/* main section start */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0;
+}
+
+/* logo section start */
+.logo {
+    width: 1110px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-top-color: #C0CCDA;
+    border-bottom-color: #C0CCDA;
+    padding: 36px 62px;
+}
+.logo-img {
+    display: flex;
+    justify-content: space-around;
+}
+/* logo section end */
+
+
+/* popular collection section start */
+.popular {
+    width: 1047px;
+    height: 1662px;
+    margin: 100px 0 100px 0;
+}
+.popular h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    color:#3A3A3A;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.popular-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+    justify-content: center;
+}
+.popular-item {
+    box-shadow: 2px 2px 20px 2px rgba(211, 211, 211, 0.525);
+    padding: 15px;
+    border-radius: 5px;
+}
+.popular-item img {
+    width: 300px;
+    height: 256px;
+}
+.popular-item h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    color: #18191F;
+    margin: 16px 0 6px 0;
+}
+.popular-item h5 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 6px;
+}
+.popular-rating {
+    font-size: 12px;
+}
+.popular-rating .fa-solid{
+    color: #FB8200;
+    font-size: 10px;
+}
+.popular-item p {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: #787885;
+    font-weight: 700;
+    margin-bottom: 0;
+    padding-right: 141px;
+}
+.photos-button {
+    margin-top: 50px;
+    text-align: right;
+}
+.popular a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
+    color: rgba(224, 44, 109, 0.87);
+}
+.popular i {
+    margin-left: 8px;
+}
+/* popular collection section end */
+
+
+/* featured products section start */
+.featured {
+    width: 1110px;
+    height: 270px;
+}
+.featured-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.featured-container h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    margin: 0;
+}
+.featured-container p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #6C6C6C;
+}
+.featured-container a {
+    color: #FFF;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.featured-container i {
+    margin-left: 8px;
+}
+/* featured products section end */
+/* main section end */
+
+
+
+
+/* footer section start */
+footer {
+    background-color: #0A0826;
+    text-align: center;
+    color: #FFF;
+    padding: 50px 0;
+}
+footer h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    margin: 0 0 3px 0;
+}
+footer > p {
+    color: red;
+    margin-bottom: 3px;
+    margin-top: 0;
+    color: #D9DBE1;
+}
+.icon-round {
+    padding: 2px 7px;
+    background-color: rgba(128, 128, 128, 0.442);
+    display: inline-block;
+    border-radius: 50%;
+    margin: 14px 8px 8px 0;
+}
+/* footer section end */
+
+
+
+
+/* media query start */
+@media only screen and (max-width: 688px) {
+    /* header section */
+    nav {
+        display: none;
+    }
+    .header-banner {
+        flex-direction: column-reverse;
+    }
+    .header-banner img {
+        width: 100%;
+    }
+
+    /* logo section */
+    .logo {
+        width: 100%;
+        border: none;
+    }
+    .logo-img {
+        flex-wrap: wrap;
+        row-gap: 35px;
+        padding: 0 20px;
+        column-gap: 15px;
+    }
+
+    /* popular section */
+    .popular {
+        width: 100%;
+        height: 100%;
+    }
+    .popular-items {
+        grid-template-columns: 1fr;
+    }
+    .popular-item {
+        margin: 0 25px;
+    }
+    .popular-item img{
+        width: 100%;
+    }
+
+    /* featured section */
+    .featured {
+        width: 100%;
+        height: 100%;
+    }
+    .featured-container {
+        grid-template-columns: 1fr;
+    }
+    .featured-container img {
+        width: 100%;
+    }
+}
+/* media query */

@@ -1,0 +1,163 @@
+/* google font link */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Manrope&family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@700&display=swap');
+
+
+
+
+/* common utilities */
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+/* header section start */
+/* nav section start */
+.navbar-brand {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #3E3E3E;
+}
+.nav-link {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #3E3E3E;
+}
+/* nav section end */
+
+
+/* header banner section start */
+.carousel-inner h5 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.carousel-inner p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+/* header banner section end */
+/* header section end */
+
+
+
+
+/* main section start */
+/* moment section start */
+.moment h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #0A0826;
+}
+.moment p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+/* moment section end */
+
+
+/* package section start */
+.package h3, h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #231D4F;
+}
+.package p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #848199;
+    font-size: 15px;
+}
+.package .fa-check {
+    color: #5243C2;
+    padding: 2px 3px;
+    border-radius: 50%;
+    background-color: rgba(211, 211, 211, 0.418);
+}
+.package a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    background-color: rgba(244, 150, 210, 0.1);
+    border-radius: 24px;
+}
+.hot {
+    background-color: rgba(63, 135, 245, 1);
+    box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
+    border-radius: 26px;
+    position: relative;
+    background-image: url(./images/watermark.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.hot .fa-check {
+    color: white;
+}
+.hot p {
+    color: white;
+}
+/* package section end */
+
+
+/* happy section start */
+.happy p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #6C6C6C;
+}
+.happy h5 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #0C1920;
+}
+.happy h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #747474;
+}
+/* happy section end */
+
+
+/* frequently section start */
+.frequently h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #0D0925;
+}
+.frequently button {
+    color: #383838;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    /* font-size: 20px; */
+}
+.frequently .accordion-body {
+    color: #7E848C;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+/* frequently section end */
+/* main section end */
+
+
+
+
+/* footer section start */
+footer {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    background-color: #0B0D17;
+    color: #D9DBE1;
+}
+footer h4 {
+    color: #D9DBE1;
+}
+.footer-icon-letter {
+    font-size: 10px;
+}
+/* footer section end */

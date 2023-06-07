@@ -1,0 +1,1 @@
+ctrl+spacebar = tailwind class help

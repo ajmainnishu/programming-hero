@@ -1,0 +1,310 @@
+/* font link */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Poppins:wght@400;500&family=Roboto:wght@400;500&display=swap');
+
+
+
+
+/* common section and utilities start */
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+main {
+    background-color: #F3F1FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0;
+}
+.container {
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 5px;
+}
+/* common section and utilities end */
+
+
+
+
+/* header section added */
+header {
+    background-color: #562EFF;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* navigation section start */
+.navigation {
+    width: 920px;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-icon {
+    display: flex;
+    align-items: center;
+}
+.nav img {
+    width: 40px;
+    height: 51px;
+}
+.nav h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    margin-left: 15px;
+    color: #FFFFFF;
+}
+.nav-anchor {
+    display: flex;
+    align-items: center;
+}
+.nav-anchor a {
+    margin-right: 36px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.nav-anchor img {
+    width: 51px;
+    height: 51px;
+}
+/* navigation section end */
+
+
+
+
+/* top player section start */
+.top-player {
+    width: 870px;
+    height: 679px;
+}
+.top-player h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #562EFF;
+    margin-bottom: 40px;
+    margin-top: 0;
+}
+.top-player-info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 29px;
+}
+.top-player-details {
+    display: flex;
+    align-items: center;
+}
+.top-player-info img {
+    width: 56px;
+    height: 56px;
+}
+.top-player-info h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 16px;
+}
+hr {
+    border: 1px solid #D1D1D1;
+    margin: 30px 0;
+}
+/* top player section end */
+
+
+
+
+/* top blog section start */
+.blogs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 26px;
+}
+.top-blog h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #562EFF;
+    margin-bottom: 40px;
+    margin-top: 0;
+    font-weight: 500;
+}
+.blog {
+    display: flex;
+}
+.blog img {
+    width: 177px;
+    height: 117px;
+}
+.blog-info {
+    margin-left: 16px;
+    margin-right: 45px;
+}
+.blog-info h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 34px;
+    margin: 0;
+}
+.blog-info p {
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    color: #9F9F9F;
+}
+.blog-info a {
+    text-decoration: none;
+    color: #562EFF;
+}
+/* blog section end */
+
+
+
+
+/* latest courses section start */
+.latest-courses {
+    margin-top: 21px;
+    width: 870px;
+    height: 362px;
+}
+.latest-courses h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #562EFF;
+    margin-bottom: 40px;
+    margin-top: 0;
+    font-weight: 500;
+}
+.courses {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 24px;
+}
+.courses-banner {
+    padding: 13px 15px 21px 15px;
+    box-shadow: 0px 5.34229px 13.3557px rgba(0, 0, 0, 0.09);
+    border-radius: 5px;
+}
+.courses-banner img {
+    width: 224px;
+    height: 104px;
+}
+.courses-banner h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 15px 0 0 0;
+}
+.courses-banner p {
+    color: #ED6B4F;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 10px 0 16px 0;
+}
+.course {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.filled-star {
+    color: #FFC014;
+}
+.empty-star {
+    color: #AEAEAE;
+    opacity: .25;
+}
+.course-rating {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #A2A2A2;
+}
+.course-duration {
+    background-color: #FFE4E8;
+    border-radius: 14px;
+    padding: 5px 10px;
+    color: #FF4A60;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+
+
+
+/* -----------------------
+media quary start
+------------------------- */
+
+
+/* mobile device */
+@media only screen and (max-width: 688px) {
+    .nav-icon {
+        justify-content: center;
+        margin-top: 50px;
+    }
+    .nav-anchor a {
+        margin: 30px 0;
+    }
+    .nav, .nav-anchor {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .navigation, .top-player, .top-blog, .latest-courses  {
+        width: 100%;
+        text-align: center;
+        height: 100%;
+    }
+    .top-player-info, .blogs, .courses {
+        grid-template-columns: 1fr;
+    }
+    .top-player-details {
+        flex-direction: column;
+    }
+    .blog {
+        flex-direction: column;
+    }
+}
+
+
+
+/* tablet device */
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+    .navigation, .top-player, .top-blog, .latest-courses  {
+        width: 100%;
+        text-align: center;
+        height: 100%;
+    }
+    .nav-icon {
+        justify-content: center;
+        margin-top: 50px;
+    }
+    .nav-anchor a {
+        margin: 30px 0;
+    }
+    .nav, .nav-anchor {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .top-player-info {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .top-player-details {
+        
+    }
+    .blogs, .courses {
+        grid-template-columns: 1fr;
+    }
+    .blog, .top-player-details {
+        flex-direction: column;
+    }
+}
+/* -----------------------
+media quary end
+------------------------- */

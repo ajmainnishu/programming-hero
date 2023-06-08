@@ -1,0 +1,17 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700;900&display=swap');
+
+
+
+
+/* common utilities */
+body {
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+h1, h2 {
+    font-family: 'Bebas Neue', sans-serif;
+}
+h3, h4, p, a, button {
+    font-family: 'Roboto', sans-serif;
+}

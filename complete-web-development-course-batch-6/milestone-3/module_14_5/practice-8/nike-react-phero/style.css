@@ -1,0 +1,49 @@
+/* google fonts link */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700;900&display=swap');
+
+
+
+
+/* common utilities */
+body {
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+h1, h2 {
+    font-family: 'Bebas Neue', sans-serif;
+}
+h3, h4, p {
+    font-family: 'Roboto', sans-serif;
+}
+h1, h2, h4 {
+    color: rgba(54, 57, 88, 1);
+}
+p {
+    color: rgba(62, 62, 62, 1);
+}
+.color-btn {
+    background: linear-gradient(180deg, #3D4FF3 0%, #3543BC 100%);
+    font-family: 'Roboto', sans-serif;
+}
+.color-orange, h3 {
+    color: rgba(250, 128, 76, 1);
+}
+
+
+
+
+/* header section */
+.color-heading-bg {
+    background-color: rgba(255, 249, 244, 1);
+}
+.nav-link {
+    color: rgba(60, 60, 60, 1);
+}
+
+
+
+
+/* main section */
+.color-photo-bg {
+    background-color: rgba(241, 241, 241, 1);
+}

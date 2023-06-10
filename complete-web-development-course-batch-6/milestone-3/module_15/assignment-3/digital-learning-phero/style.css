@@ -1,0 +1,141 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+
+
+
+/* common utilities */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+}
+h2 {
+    color: rgba(29, 29, 29, 1);
+}
+h4, h5, .accordion-button, .brand-color {
+    color: rgba(74, 74, 74, 1);
+}
+p, .nav-color {
+    color: rgba(119, 119, 119, 1);
+}
+.header-p, .join-p {
+    color: rgba(244, 244, 244, 1);
+}
+.btn-primary-color {
+    background-color: rgba(40, 155, 222, 1);
+    color: white;
+}
+.btn-primary-color:hover {
+    background-color: rgba(40, 155, 222, .5);
+    color: white;
+}
+h6, .see-all-color {
+    color: rgba(40, 155, 222, 1);
+}
+
+
+
+
+/* header section start */
+/* nav section start */
+.btn-outline-color {
+    color: rgba(40, 155, 222, 1);
+    border: 1px solid #289BDE;
+}
+.btn-outline-color:hover {
+    background-color: rgba(40, 155, 222, 1);
+    color: white;
+}
+/* nav section end */
+
+
+/* banner section start */
+.item-1 {
+    background: url(./images/cover/cover-1.png) rgba(29, 29, 29, 0.7) ;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.item-2 {
+    background: url(./images/cover/cover-2.jpg) rgba(29, 29, 29, 0.7) ;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.item-3 {
+    background: url(./images/cover/cover-3.jpg) rgba(29, 29, 29, 0.7) ;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+/* banner section end */
+/* header section end */
+
+
+
+
+/* main section start */
+/* join section start */
+.join-bg-color {
+    background-color: rgba(40, 155, 222, 1);
+}
+.join-btn-color{
+    color: rgba(40, 155, 222, 1);
+}
+/* join section end */
+
+
+/* feedback section start */
+.left-arrow {
+    background-color: rgba(229, 246, 255, 1);
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -2%;
+}
+.right-arrow {
+    background-color: rgba(40, 155, 222, 1);
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -2%;
+}
+.fa-solid {
+    color: #FBBF24;
+}
+.fa-regular {
+    color: #FCD34D;
+}
+/* feedback section end */
+/* main section end */
+
+
+
+
+/* footer section start */
+.footer-p {
+    color: rgba(232, 232, 232, 1);
+}
+.footer-bg-color {
+    background-color: rgba(22, 22, 22, 1);
+}
+.fa-brands {
+    color: white;
+    font-size: 20px;
+    background-color: rgba(36, 36, 36, 1);
+    border-radius: 50%;
+}
+.fa-facebook-f {
+    padding: 9px 12px;
+}
+.fa-twitter, .fa-tiktok {
+    padding: 9px 9px;
+}
+.fa-linkedin-in {
+    padding: 9px 10px;
+}
+/* footer section end */

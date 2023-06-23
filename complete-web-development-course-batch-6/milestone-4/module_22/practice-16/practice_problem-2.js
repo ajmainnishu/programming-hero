@@ -19,4 +19,4 @@ function isPrime(number)
  }
 
 
-console.log(isPrime());
+console.log(isPrime(3));

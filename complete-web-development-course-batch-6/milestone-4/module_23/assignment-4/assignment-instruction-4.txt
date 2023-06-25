@@ -1,0 +1,8 @@
+১) সবগুলো কাজ ফাংশনের ভিতরে করতে হবে। ফাংশের নাম যা দেওয়া থাকবে, তাই দিতে হবে। 
+২) প্রথম সমস্যার নাম radianToDegree. এইখানে রেডিয়ানের পরিমাণ বলা হবে, ড্রিগ্রীতে করভার্ট করতে হবে। return করতে হবে। return হিসেবে শুধু সংখ্যা দিতে হবে। যদি string আকারে নাম্বার দেওয়া হয়। তাহলে দিতে হবে, Please provide a valid input.
+৩) ফাইল চেক করতে হবে এইটা জাভাস্ক্রিপ নাকি না। জাভাস্ক্রিপ ফাইল হলে সত্য আর না হলে মিথ্যা return করতে হবে । ফাইলের নাম isJavaScriptFile.ইনপুট অন্য দিলে error মেসেজ দিতে হবে। হতে পারে Please provide a valid input.
+৪) ফাইলের নাম oilPrice.তেলের মোট দাম বের করতে হবে। diesel - 114, petrol - 130, octane - 135.মোট যোগফল return করতে হবে। ইনপুট অন্য দিলে error মেসেজ দিবে।  Please provide a valid input.
+৫) ফাইলের নাম publicBusFare. reserved bus - 50, microbus - 11, rest people will go by public bus. public bus fare - 250. পাবলিক বাসের ভাড়া রিটার্ন করতে হবে। প্যারামিটার শুধু ১টা নিতে হবে। ইনপুট অন্য দিলে error মেসেজ দিবে।  Please provide a valid input.
+৬) ফাইলের নাম isBestFriend। প্যারামিটার ২টা নিতে হবে। ২টা অবজেক্ট নিতে হবে যার ২টা প্রোপার্টি থাকবে। যেমন প্রথম অবজেক্ট {name: 'Tom', friend: 'Rock'} {name: 'Rock', friend: 'Tom'}. যদি প্রথম অবজেক্ট এর name ও দ্বিতীয় অবজেক্ট এর friend এবং প্রথম অবজেক্ট এর friend ও দ্বিতীয় অবজেক্ট এর name মিল হয় তাহলে এরা এক জন আরেকজনের বন্ধু। return true করবে।
+৭) কল না করলেও চলবে, শুধু ফাংশন লিখা থাকতে হবে। ইনপুট অন্য দিলে error মেসেজ দিবে।  Please provide a valid input.
+৮) কোড মিনিং ফুল হতে হবে। organize হতে হবে। let and const ব্যবহার করতে হবে। var ব্যবহার করা যাবেনা। সুন্দর কমেন্ট করতে হবে।

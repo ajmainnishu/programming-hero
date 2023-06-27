@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traversing dom - getElementsByTagName</title>
+</head>
+<body>
+
+    <h1>Welcome to my DOM</h1>
+    <h1>Dom Dom Dom</h1>
+    <ul>
+        <li>Jalali Set</li>
+        <li>Shafayet</li>
+        <li>bonobash</li>
+        <li>BOM de re baba</li>
+    </ul>
+
+
+    <script src="./index.js"></script>
+    <script>
+        // const liCollection = document.getElementsByTagName('li');
+        // console.log(liCollection)
+
+
+
+
+        // const liCollection = document.getElementsByTagName('li');
+        // for (const i of liCollection) {
+        //     console.log(i);
+        // }
+
+
+        // const liCollection = document.getElementsByTagName('li');
+        // for (const i of liCollection) {
+        //     console.log(i.innerText);
+        // }
+
+        
+        // const allHeadings = document.getElementsByTagName('h1');
+        // for (const i of allHeadings) {
+        //     console.log(i);
+        // }
+
+
+        const allHeadings = document.getElementsByTagName('h1');
+        for (const i of allHeadings) {
+            console.log(i.innerText);
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traversing dom - getElementByQuerySelector, querySelectorAll</title>
+</head>
+<body>
+
+    <section class="fruits-container">
+        <h1>Places I like to visit</h1>
+        <ul>
+            <li class="important-places">Sundarban</li>
+            <li class="important-places">Bandorban</li>
+            <li class="important-places">Katabon</li>
+            <li class="other-place">Shalbon</li>
+        </ul>
+    </section>
+
+
+
+    
+    <script src="./index.js"></script>
+    <script>
+
+    //    const someLi = document.querySelectorAll('.fruits-container li');
+    //    console.log(someLi);
+
+
+    //    const someLi = document.querySelectorAll('.fruits-container li');
+    //    for (const li of someLi) {
+    //         console.log(li);
+    //    }
+
+
+       const someLi = document.querySelectorAll('.fruits-container li');
+       for (const li of someLi) {
+            console.log(li.innerText);
+       }
+    </script>
+</body>
+</html>

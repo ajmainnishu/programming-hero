@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traversing dom - getElementByClass VS getElementById</title>
+</head>
+<body>
+    
+    <section>
+        <h1>Welcome to my DOM</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis distinctio exercitationem, nostrum optio consectetur similique temporibus dolore ea debitis sapiente, unde facere culpa quam provident hic excepturi fuga a totam.</p>
+        <ul>
+            <li>Jalali Set</li>
+            <li>Shafayet</li>
+            <li>bonobash</li>
+            <li>BOM de re baba</li>
+        </ul>
+    </section>
+    <section>
+        <h1 id="fruits-title">Fruits I like</h1>
+        <ul>
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Carrot</li>
+        </ul>
+    </section>
+    <section>
+        <h1>Places I like to visit</h1>
+        <ul>
+            <li class="important-places">Sundarban</li>
+            <li class="important-places">Bandorban</li>
+            <li class="important-places">Katabon</li>
+            <li class="other-place">Shalbon</li>
+        </ul>
+    </section>
+
+
+
+    
+    <script src="./index.js"></script>
+    <script>
+
+        // const places = document.getElementsByClassName('important-places');
+        // console.log(places);
+
+
+        // const places = document.getElementsByClassName('important-places');
+        // for (const place of places) {
+        //     console.log(place);
+        // }
+
+
+        // const places = document.getElementsByClassName('important-places');
+        // for (const place of places) {
+        //     console.log(place.innerText);
+        // }
+
+
+        // const otherPlace = document.getElementsByClassName('other-place');
+        // for (const place of otherPlace) {
+        //     console.log(place.innerText);
+        // }
+
+
+
+
+        const fruitsTitle = document.getElementById('fruits-title');
+        fruitsTitle.innerText = 'Fruits changed by JS';
+
+    </script>
+</body>
+</html>

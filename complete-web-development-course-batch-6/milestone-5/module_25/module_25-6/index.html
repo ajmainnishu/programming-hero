@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple github like delete confirmation button</title>
+</head>
+<body>
+
+    <!-- <button id="btn-more">Events</button> -->
+
+
+
+
+    <!-- <input id="text-field" type="text"> -->
+
+
+
+
+    <!-- <h1 id="secret-info">My secret info</h1>
+    <input type="text">
+    <button id="btn-delete">Delete</button> -->
+
+
+
+
+    <h1 id="secret-info">My secret info</h1>
+    <input id="delete-confirm" type="text" placeholder="please type delete">
+    <button id="btn-delete" disabled>Delete</button>
+
+
+
+
+    <script>
+        // document.getElementById('btn-more').addEventListener('mouseenter', function () {
+        //     console.log('mouse')
+        // });
+
+
+        // document.getElementById('btn-more').addEventListener('mousemove', function () {
+        //     console.log('mouse')
+        // });
+
+
+
+
+        // document.getElementById('text-field').addEventListener('focus', function () {
+        //     console.log('Event Triggered inside the input field');
+        // });
+
+
+        // document.getElementById('text-field').addEventListener('blur', function () {
+        //     console.log('Event Triggered inside the input field blur');
+        // });
+
+
+        // document.getElementById('text-field').addEventListener('keydown', function () {
+        //     console.log(event);
+        // });
+
+
+        // document.getElementById('text-field').addEventListener('keydown', function () {
+        //     console.log(event.target);
+        // });
+
+
+        // document.getElementById('text-field').addEventListener('keydown', function () {
+        //     console.log(event.target.value);
+        // });
+
+
+        // document.getElementById('text-field').addEventListener('keypress', function () {
+        //     console.log(event.target.value);
+        // });
+
+
+        // document.getElementById('text-field').addEventListener('keyup', function () {
+        //     console.log(event.target.value);
+        // });
+
+
+
+
+        // document.getElementById('btn-delete').addEventListener('click', function () {
+        //     const secret = document.getElementById('secret-info');
+        //     secret.style.display = 'none'
+        // });
+
+
+
+
+        document.getElementById('delete-confirm').addEventListener('keyup', function (event) {
+            const text = event.target.value;
+            const deleteButton = document.getElementById('btn-delete')
+            if (text === 'delete') {
+                deleteButton.removeAttribute('disabled');
+            }
+            else {
+                deleteButton.setAttribute('disabled', true);
+            }
+        })
+    </script>
+
+</body>
+</html>

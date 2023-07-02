@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add onclick handler directly or via javascript</title>
+</head>
+<body>
+
+    <button onclick="document.body.style.backgroundColor='yellow'">Make Yellow</button>
+    <button onclick="makeRed()">Make Red</button>
+    <button id="make-blue">Make Blue</button>
+    <button id="make-purple">Make Purple</button>
+
+
+
+
+    <script>
+        function makeRed() {
+            document.body.style.backgroundColor = 'red';
+        }
+    </script>
+    <script src="./index.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>(semi-advanced) Event bubble and Stop propagating</title>
+    <style>
+        #item-2 {
+            border: 2px solid rebeccapurple;
+        }
+        ul {
+            border: 2px solid tomato;
+        }
+        body {
+            border: 2px solid green;
+        }
+        section {
+            border: 2px solid blue;
+        }
+    </style>
+</head>
+<body id="body">
+
+    <h1>Exploring Event Bubble</h1>
+    <section id="list-container">
+        <ul id="list-ul">
+            <li id="item-1">Lorem, ipsum.</li>
+            <li id="item-2">Quis, nam.</li>
+            <li id="item-3">Deserunt, quibusdam?</li>
+            <li id="item-4">Et, quae?</li>
+            <li id="item-5">Autem, quia?</li>
+            <li id="item-6">Ea, quisquam.</li>
+        </ul>
+    </section>
+
+
+
+
+    <script>
+        // document.getElementById('item-2').addEventListener('click', function () {
+        //     console.log('item 2 clicked');
+        // });
+        // document.getElementById('list-ul').addEventListener('click', function () {
+        //     console.log('ul clicked');
+        // });
+        // document.getElementById('body').addEventListener('click', function () {
+        //     console.log('body html');
+        // });
+        // document.getElementById('list-container').addEventListener('click', function () {
+        //     console.log('section clicked');
+        // });
+
+
+        // document.getElementById('item-2').addEventListener('click', function (event) {
+        //     console.log('item 2 clicked');
+        //     event.stopPropagation();
+        // });
+        // document.getElementById('list-ul').addEventListener('click', function () {
+        //     console.log('ul clicked');
+        // });
+        // document.getElementById('body').addEventListener('click', function () {
+        //     console.log('body html');
+        // });
+        // document.getElementById('list-container').addEventListener('click', function () {
+        //     console.log('section clicked');
+        // });
+
+
+        // document.getElementById('item-2').addEventListener('click', function (event) {
+        //     console.log('item 2 clicked');
+        // });
+        // document.getElementById('item-2').addEventListener('click', function (event) {
+        //     console.log('item 2 second clicked');
+        // });
+        // document.getElementById('item-2').addEventListener('click', function (event) {
+        //     console.log('item 2 third clicked');
+        // });
+        // document.getElementById('item-2').addEventListener('click', function (event) {
+        //     console.log('item 2 fourth clicked');
+        // });
+        // document.getElementById('list-ul').addEventListener('click', function () {
+        //     console.log('ul clicked');
+        // });
+        // document.getElementById('body').addEventListener('click', function () {
+        //     console.log('body html');
+        // });
+        // document.getElementById('list-container').addEventListener('click', function () {
+        //     console.log('section clicked');
+        // });
+
+
+        // document.getElementById('item-2').addEventListener('click', function (event) {
+        //     console.log('item 2 clicked');
+        //     event.stopPropagation()
+        // });
+        // document.getElementById('item-2').addEventListener('click', function (event) {
+        //     console.log('item 2 second clicked');
+        // });
+        // document.getElementById('item-2').addEventListener('click', function (event) {
+        //     console.log('item 2 third clicked');
+        // });
+        // document.getElementById('item-2').addEventListener('click', function (event) {
+        //     console.log('item 2 fourth clicked');
+        // });
+        // document.getElementById('list-ul').addEventListener('click', function () {
+        //     console.log('ul clicked');
+        // });
+        // document.getElementById('body').addEventListener('click', function () {
+        //     console.log('body html');
+        // });
+        // document.getElementById('list-container').addEventListener('click', function () {
+        //     console.log('section clicked');
+        // });
+
+
+        // document.getElementById('item-2').addEventListener('click', function () {
+        //     console.log('item 2 clicked');
+        //     event.stopPropagation()
+        // });
+        // document.getElementById('item-2').addEventListener('click', function () {
+        //     console.log('item 2 second clicked');
+        // });
+        // document.getElementById('item-2').addEventListener('click', function () {
+        //     console.log('item 2 third clicked');
+        // });
+        // document.getElementById('item-2').addEventListener('click', function () {
+        //     console.log('item 2 fourth clicked');
+        // });
+        // document.getElementById('list-ul').addEventListener('click', function () {
+        //     console.log('ul clicked');
+        // });
+        // document.getElementById('body').addEventListener('click', function () {
+        //     console.log('body html');
+        // });
+        // document.getElementById('list-container').addEventListener('click', function () {
+        //     console.log('section clicked');
+        // });
+
+
+        document.getElementById('item-2').addEventListener('click', function (event) {
+            console.log('item 2 clicked');
+            event.stopImmediatePropagation()
+        });
+        document.getElementById('item-2').addEventListener('click', function (event) {
+            console.log('item 2 second clicked');
+        });
+        document.getElementById('item-2').addEventListener('click', function (event) {
+            console.log('item 2 third clicked');
+        });
+        document.getElementById('item-2').addEventListener('click', function (event) {
+            console.log('item 2 fourth clicked');
+        });
+        document.getElementById('list-ul').addEventListener('click', function () {
+            console.log('ul clicked');
+        });
+        document.getElementById('body').addEventListener('click', function () {
+            console.log('body html');
+        });
+        document.getElementById('list-container').addEventListener('click', function () {
+            console.log('section clicked');
+        });
+    </script>
+
+</body>
+</html>

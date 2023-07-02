@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Most common ways to set Event Handlers</title>
+</head>
+<body>
+
+    <!-- <h3 id="handler-status">Default Text</h3>
+    <button onclick="handlerOnClick()">Handle Event by Add onclick Function</button>
+    <button id="event-listener">Handle event by addEventListener</button> -->
+
+
+
+
+    <p id="input-text-display">Default Input text</p>
+    <input id="input-field" type="text">
+    <button id="btn-update">Update</button>
+
+
+
+
+    <script>
+        // function handlerOnClick () {
+        //     const handlerStatus = document.getElementById('handler-status');
+        //     handlerStatus.innerText = 'Handled by function attached on onclick attribute';
+        // }
+        // document.getElementById('event-listener').addEventListener('click', function () {
+        //     const handlerStatus = document.getElementById('handler-status');
+        //     handlerStatus.innerText = 'Text updated by add Event listener button';
+        // })
+
+
+
+
+        document.getElementById('btn-update').addEventListener('click', function () {
+            const inputField = document.getElementById('input-field');
+            const inputText = inputField.value;
+            const p = document.getElementById('input-text-display');
+            p.innerText = inputText;
+            inputField.value = '';
+        })
+    </script>
+
+</body>
+</html>

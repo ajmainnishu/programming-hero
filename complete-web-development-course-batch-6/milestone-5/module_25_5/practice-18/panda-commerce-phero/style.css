@@ -1,0 +1,65 @@
+/* common utilities */
+body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav .nav-link {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.banner h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+}
+.banner h3 {
+    color: #FF136F;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 41px;
+}
+.color-pink {
+    background-color: rgba(254, 234, 233, 1);
+}
+.btn-color {
+    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+}
+.cate-color-1 {
+    background: linear-gradient(152.07deg, #FF9C35 1.47%, #FFD019 97.17%);
+}
+.cate-color-2 {
+    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+}
+.cate-color-3 {
+    background: linear-gradient(170.41deg, #4289FF -10.89%, #3F07F8 92.77%);
+}
+.see-all-color {
+    color: rgba(255, 157, 0, 1);
+}
+.main-section-color {
+    background-color: rgba(244, 244, 244, 1);
+}
+.category h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+}
+.shoes p, .backpack p, .banner p {
+    color: rgba(78, 78, 78, 1);
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+.footer-p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #707070;
+}
+.section-heading, .shoes h4, .backpack h4, .footer-heading {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #1F1F1F;
+}
+.section-heading {
+    font-size: 36px;
+}

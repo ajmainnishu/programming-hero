@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Problem - 20</title>
+    <!-- A website will have an input field. There will be a button called double with it. If you enter a number in the input field, it will double that number below. There will be another button called triple. Clicking on it will triple the number in the input field. That number will show below. And if you write anything other than a number in the input field, then an alert will say Please enter a number. We will show the details about how the alert is given later. For now, see if you can find anything by searching on Google. -->
+
+    <!-- tailwind cdn link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-cyan-50">
+
+    <!-- main section start -->
+    <main>
+
+        <!-- input field section start -->
+        <section>
+            <div class="bg-cyan-200 w-6/12 mx-auto text-center rounded-2xl my-20 py-10">
+                <h2 id="double-number" class="text-3xl pt-5 font-semibold"></h2>
+                <input class="block rounded-lg p-3 mx-auto my-10" type="text" name="" id="input-field" placeholder="Please enter a number">
+                <button id="btn-double" class="bg-sky-500 py-2 px-5 rounded-lg font-medium text-white">Double</button>
+                <button id="btn-triple" class="bg-sky-500 py-2 px-5 rounded-lg font-medium text-white">Triple</button>
+                <h2 id="triple-number" class="text-3xl pt-10 pb-5 font-semibold"></h2>
+            </div>
+        </section>
+        <!-- input field section end -->
+
+    </main>
+    <!-- main section end -->
+
+
+
+    
+    <!-- js file link -->
+    <script src="./utilities.js"></script>
+    <script src="./double.js"></script>
+    <script src="./triple.js"></script>
+
+</body>
+</html>

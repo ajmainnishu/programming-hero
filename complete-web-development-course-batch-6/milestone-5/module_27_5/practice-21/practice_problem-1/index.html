@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problem Problem - 1</title>
+	<!-- Don't watch our video by yourself and do the bank of father. If possible do as in module 27. And if you can't do it like module 26. But the challenge is that you can search on Google if you want. But can't see our video. Then you'll be stuck coding. Your learning is to stop and finish one thing after 2-3 hours. A developer is made by sweating through these frustrations. -->
+	
+    <!-- tailwind cdn link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-emerald-50">
+    
+    <!-- header section start -->
+    <header>
+        <h1 class="text-5xl text-center text-blue-500 font-medium mt-10 mb-16">Let's Get Some <span class="text-blue-700">Money!!!</span></h1>
+    </header>
+    <!-- header section end -->
+
+
+
+
+    <!-- main section start -->
+    <main>
+
+        <!-- amount section start -->
+        <section>
+            <div class="grid grid-cols-3 gap-4 w-9/12 mx-auto text-white">
+                <div class="bg-teal-400 text-3xl p-6 rounded-xl">
+                    <h2 class="font-medium">Deposit</h2>
+                    <h2>$<span id="deposit-total">00</span></h2>
+                </div>
+                <div class="bg-rose-400 text-3xl p-6 rounded-xl">
+                    <h2 class="font-medium">Withdraw</h2>
+                    <h2>$<span id="withdraw-total">00</span></h2>
+                </div>
+                <div class="bg-amber-400 text-3xl p-6 rounded-xl">
+                    <h2 class="font-medium">Balance</h2>
+                    <h2>$<span id="balance-total">1240</span></h2>
+                </div>
+            </div>
+        </section>
+        <!-- amount section end -->
+
+
+        <!-- input section start -->
+        <section>
+            <div class="grid grid-cols-2 gap-4 w-9/12 mx-auto my-20">
+                <div class="bg-indigo-400 rounded-xl p-6">
+                    <h2 class="text-3xl text-white mb-5 font-medium">Please Deposit</h2>
+                    <input class="block w-full py-2 px-5 rounded-lg my-5" type="text" name="" id="deposit-field" placeholder="$ amount you want to deposit">
+                    <button id="btn-deposit" class="bg-blue-700 text-white py-3 px-10 rounded-xl font-medium mb-3">Deposit</button>
+                </div>
+                <div class="bg-indigo-300 rounded-xl p-6">
+                    <h2 class="text-3xl text-white mb-5 font-medium">Please Withdraw</h2>
+                    <input class="block w-full py-2 px-5 rounded-lg my-5" type="text" name="" id="withdraw-field" placeholder="$ amount you want to withdraw">
+                    <button id="btn-withdraw" class="bg-blue-500 text-white py-3 px-10 rounded-xl font-medium mb-3">Withdraw</button>
+                </div>
+            </div>
+        </section>
+        <!-- input section end -->
+        
+    </main>
+    <!-- main section end -->
+
+
+
+    <!-- utilities js file -->
+    <script src="./js/utilities.js"></script>
+    <!-- deposit js file -->
+    <script src="./js/deposit.js"></script>
+    <!-- withdraw js file -->
+    <script src="./js/withdraw.js"></script>
+
+</body>
+</html>

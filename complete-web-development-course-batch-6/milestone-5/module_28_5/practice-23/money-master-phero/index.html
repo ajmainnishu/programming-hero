@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- website title -->
+    <title>Money Master</title>
+
+    <!-- bootstap css cdn link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<body>
+
+    <!-- header section start -->
+    <header>
+        <h1 class="text-center pt-5 pb-1 text- display-3 fw-semibold text-info opacity-50">Money Master <img src="./image/salary.png" alt=""></h1>
+    </header>
+    <!-- header section end -->
+
+    <!-- main section start -->
+    <main class="container my-5">
+
+        <!-- details part start -->
+        <section class="row g-5">
+            <!-- image part -->
+            <div class="col-md-6 col-12">
+                <img class="w-100 rounded-3" src="./image/money-master_ajmainnishu.jpg" alt="">
+            </div>
+            <!-- income calculate part -->
+            <div class="col-md-6 col-12 text-center bg-light py-5 rounded-3">
+                <h3 class="fw-bold pb-3">Income</h3>
+                <p class="d-flex align-items-center justify-content-center fw-semibold">Income: &nbsp;<input class="form-control w-50" type="text" name="" id="input-income-field"></p>
+                <h3 class="fw-bold pb-3">Expenses</h3>
+                <p class="d-flex align-items-center justify-content-center fw-semibold mb-4">Food: &nbsp;<input type="text" name="" id="input-food-field" class="form-control w-50"></p>
+                <p class="d-flex align-items-center justify-content-center fw-semibold mb-4">Rent: &nbsp;<input class="form-control w-50" type="text" name="" id="input-rent-field"></p>
+                <p class="d-flex align-items-center justify-content-center fw-semibold">Clothes: &nbsp;<input class="form-control w-50" type="text" name="" id="input-clothes-field"></p>
+                <button id="btn-calculate" class="btn btn-primary fw-semibold px-4 mt-2 opacity-75">Calculate</button>
+                <h3 class="fw-bold pb-3 pt-4">Total Expenses: <span id="display-total-expenses">5500</span></h3>
+                <h3 class="fw-bold pb-3">Balance: <span id="display-balance">4500</span></h3>
+                <label for="" class="d-flex align-items-center justify-content-center fw-semibold">Save: &nbsp;<input type="text" name="" id="input-save-field" class="form-control w-25">&nbsp; % &nbsp;<button id="btn-save" class="btn btn-primary fw-semibold px-4 opacity-75">Save</button></label>
+                <h3 class="fw-bold py-3">Saving Amount: <span id="saving-amount">2000</span></h3>
+                <h3 class="fw-bold">Remaining Balance: <span id="remaining-balance">2500</span></h3>
+            </div>
+        </section>
+        <!-- details part end -->
+
+    </main>
+    <!-- main section end -->
+
+
+
+
+    <!-- js file link -->
+    <script src="./js/utilities.js"></script>
+    <script src="./js/main.js"></script>
+
+    <!-- bootstrap js cdn link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    
+</body>
+</html>

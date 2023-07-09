@@ -1,0 +1,46 @@
+/* common utilities */
+body {
+    margin: 0;
+}
+button:disabled {
+    background-color: #A2A9AF !important;
+    color: white !important;
+    border-color: #A2A9AF !important;
+}
+.color-btn {
+    background-color: #015196;
+    color: white;
+}
+.color-btn:hover {
+    background-color: #015196;
+    color: white;
+}
+
+
+
+
+/* header section start */
+/* header part part */
+.header-mbappe-img {
+    background-image: url('../images/header-pictures/header-mbappe-background.png');
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90% 100%;
+}
+/* header section end */
+
+
+
+
+/* main section start */
+/* player name part */
+.player-display-name {
+    min-height: 366.344px;
+}
+
+/* player income part */
+.color-total-amount {
+    color: #FF5E19;
+}
+/* main section end */

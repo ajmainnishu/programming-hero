@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- website title -->
+    <title>Meal dB API</title>
+
+    <!-- bootstrap css cdn link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+</head>
+<body class="bg-light">
+    
+    <!-- header section start -->
+    <header>
+        <h1 class="text-center display-2 fw-bold mt-4">Meal dB API</h1>
+    </header>
+    <!-- header section end -->
+
+    <!-- main section start -->
+    <main>
+
+        <!-- input field section -->
+        <section>
+            <div class="input-group input-group-lg my-5 w-25 mx-auto">
+                <input id="input-field" type="text" class="form-control" placeholder="type food name here">
+                <button class="btn btn-secondary fw-semibold" onclick="searchMeals()">Search</button>
+              </div>
+        </section>
+
+
+        <!-- meal details section -->
+        <section class="text-center mx-auto my-5" id="meal-details" style="width: 25rem;"></section>
+
+
+        <!-- meal container section -->
+        <section class="container my-5">
+            <div id="meals-container" class="row row-cols-1 row-cols-md-3 g-4"></div>
+        </section>
+
+    </main>
+    <!-- main section end -->
+
+
+
+    <!-- bootstrap js cdn link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+
+    <!-- js file link -->
+    <script src="./js/index.js"></script>
+
+</body>
+</html>

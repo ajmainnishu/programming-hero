@@ -1,0 +1,13 @@
+#comments-container {
+    width: 90%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.comment-box {
+    background-color: aquamarine;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}

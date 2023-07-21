@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- website icon -->
+    <link rel="shortcut icon" href="./icon/smartphone-call.ico" type="image/x-icon">
+
+    <!-- website title -->
+    <title>Phone Hunter API</title>
+
+    <!-- bootstrap css cdn link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<body>
+
+    <!-- header section start -->
+    <header>
+        <h1 class="text-center py-5 display-2 fw-bold text-secondary">Phone Hunter API</h1>
+    </header>
+    <!-- header section end -->
+
+
+
+
+    <!-- main section start -->
+    <main>
+        <section class="container">
+
+            <!-- input field part -->
+            <div class="d-flex flex-column flex-md-row w-50 mx-auto py-5">
+                <input class="form-control my-1" type="text" name="" id="input-field" placeholder="please type here">
+                <button id="btn-search" class="btn btn-secondary my-1">Search</button>
+            </div>
+
+            <!-- input field data display part -->
+            <div id="phones-container" class="row row-cols-1 row-cols-md-3 g-4 my-5"></div>
+
+            <!-- show all button -->
+            <div id="show-all" class="py-5 text-center d-none">
+                <button id="btn-show-all" class="btn btn-secondary" >Show All</button>
+            </div>
+
+            <!-- data found or not message -->
+            <div id="not-found-message" class="py-1 d-none">
+                <p class="text-center fw-bold fs-1 text-secondary">Data Not Found. Please try again...!</p>
+            </div>
+
+            <!-- display spinner -->
+            <div id="spinner" class="d-flex justify-content-center py-1 d-none">
+                <div class="spinner-border text-secondary" role="status">
+                  <span class="visually-hidden">Loading...</span>
+                </div>
+            </div>
+            
+            <!-- display button modal -->
+            <div>
+                <div class="modal fade" id="phoneDetails" tabindex="-1" aria-labelledby="phoneDetailsLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="phoneDetailsLabel"></h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div id="body-modal" class="modal-body"></div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <!-- main section end -->
+
+
+
+
+    <!-- bootstrap js cdn link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    
+    <!-- js file link -->
+    <script src="./js/common.js"></script>
+    <script src="./js/input-field.js"></script>
+    <script src="./js/modal-button.js"></script>
+    <script src="./js/button-showall.js"></script>
+
+</body>
+</html>

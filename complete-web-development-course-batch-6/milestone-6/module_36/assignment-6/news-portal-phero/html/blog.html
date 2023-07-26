@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- website title -->
+    <title>News Portal</title>
+
+    <!-- bootstrap css cdn link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <!-- css file link -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    
+    <!-- header section start -->
+    <header class="container">
+
+        <!-- navigation -->
+        <nav class="d-flex justify-content-between align-items-center py-4">
+            <div>
+                <h2 class="fw-bold mb-0 fs-6 font-playfair"><span class="color-bg-iris py-2 px-2 rounded-1 text-white">News</span><span class="color-text-iris ms-2">Portal</span></h2>
+            </div>
+            <div class="d-flex align-items-center">
+                <div>
+                    <a href="../index.html" class="fw-bold btn color-text-iris link-underline mx-1">News</a>
+                </div>
+                <div>
+                    <a href="./html/blog.html" class="color-text-lightgray btn ms-1 me-3">Blog</a>
+                </div>
+                <div>
+                    <img src="../images/header/header_nav.png" alt="">
+                </div>
+            </div>
+        </nav>
+
+        <hr>
+        
+    </header>
+    <!-- header section end -->
+
+
+
+
+    <!-- main section start -->
+    <main>
+        <h2 class="text-center py-5 fw-bold">Frequently Asked Questions?</h2>
+
+        <!-- accordian part -->
+        <section id="accordion-container" class="container pb-5">
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                        <strong class="color-text-iris">1. What is the difference between var let and const?</strong>
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                    <div class="accordion-body">
+                      <p class="color-text-gray">var and let create variables that can be reassigned another value. const creates "constant" variables that cannot be reassigned another value.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                      <strong>2. Difference between arrow function and regular function?</strong>
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                      <p class="color-text-gray">Regular functions created using function declarations or expressions are constructible and callable. Since regular functions are constructible, they can be called using the new keyword. However, the arrow functions are only callable and not constructible, i.e arrow functions can never be used as constructor functions.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                      <strong>3. Difference between map, forEach, filter, find?</strong>
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                      <p class="color-text-gray">The forEach() method does not returns a new array based on the given array. The map() method returns an entirely new array. The forEach() method returns “undefined“. The map() method returns the newly created array according to the provided callback function.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                        <strong>4. Why use template string?</strong>
+                      </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
+                      <div class="accordion-body">
+                        <p class="color-text-gray">Template strings are a powerful feature of modern JavaScript released in ES6. It lets us insert/interpolate variables and expressions into strings without needing to concatenate like in older versions of JavaScript. It allows us to create strings that are complex and contain dynamic elements.</p>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+    </main>
+    <!-- main section end -->
+
+
+
+
+    <!-- footer section start -->
+    <footer class="bg-white py-4">
+        <p class="text-center fw-bold font-playfair mb-0">Copyright 2023 News Portal</p>
+    </footer>
+    <!-- footer section end -->
+
+
+
+
+    <!-- bootstap js cdn link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+</body>
+</html>

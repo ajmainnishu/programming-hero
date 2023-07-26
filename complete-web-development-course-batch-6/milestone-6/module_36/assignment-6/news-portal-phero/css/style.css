@@ -1,0 +1,93 @@
+/* google font link */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;700&display=swap');
+
+
+
+
+/* common utilities start */
+body {
+    /* font-family: 'Playfair Display', serif; */
+    font-family: 'Roboto', sans-serif;
+    background-color: #F6F6F6;
+}
+.font-playfair {
+    font-family: 'Playfair Display', serif;
+}
+.color-bg-iris {
+    background-color: #5D5FEF;
+}
+.color-text-iris,
+.fa-arrow-right,
+.btn-border {
+    color:#5D5FEF;
+}
+.color-text-eye,
+.fa-star-half-stroke {
+    color: #515151;
+}
+/* common utilities end */
+
+
+
+
+/* header section start */
+.link-underline {
+    text-decoration: underline;
+    text-decoration-color: #5D5FEF;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 6px;
+}
+.color-text-lightgray {
+    color: #A3A3A3;
+}
+.color-text-gray {
+    color: #858585;
+}
+.navbar-hover:hover {
+    color: #5D5FEF;
+    background-color: #EEEFFF;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* header section end */
+
+
+/* main section start */
+/* category found part start */
+.btn-border {
+    border: 1px solid #5D5FEF;
+    background-color: transparent;
+}
+.text-default {
+    font-size: 14px;
+    color: #ABADC6;
+}
+/* category found part end */
+
+
+/* category part start */
+.color-title {
+    color: #121221;
+    font-size: 24px;
+}
+.color-para,
+footer p {
+    color: #949494;
+}
+.color-text-author {
+    color: #2B2C34;
+}
+.color-text-publish {
+    color: #718797;
+    font-size: 14px;
+}
+.author-img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+.mouse-pointer {
+    cursor: pointer;
+}
+/* category part end */
+/* main section end */

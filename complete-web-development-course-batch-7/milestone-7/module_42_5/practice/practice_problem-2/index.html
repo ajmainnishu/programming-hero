@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Problem - 2</title>
+
+    <!-- bootstrap css cdn link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <!-- 
+    1. Html file will have a p tag and a button.
+    2. The p tag will show "the count" which is initilly 0. (initially the value in local storage is 0)
+    3. Every time, after clicking the button, the number will be increased by 1. & the result will be shown in the p tag.
+    4. With every click on the button, the result will be stored in the local storage also.
+    5. Now the result is stored in local storage. So, if you reload the page or close the tab & open again, the result of "the count" is not 0. Rather it will show the value from local storage without reset.
+     -->
+
+</head>
+<body>
+    
+    <div class="text-center">
+        <p id="p" class="fs-1 pt-5">0</p>
+        <button id="btn-add" class="btn btn-primary">Increase</button>
+    </div>
+
+
+
+
+    <!-- bootstrap js cdn link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <!-- js file link -->
+    <script src="./index.js"></script>
+
+</body>
+</html>

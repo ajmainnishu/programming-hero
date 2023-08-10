@@ -1,0 +1,14 @@
+React App install:
+npx create-react-app my-app
+cd my-app
+npm start
+
+
+
+React Dev install:
+npm create vite@latest
+my-project
+React
+JavsScript
+npm install
+npm run dev

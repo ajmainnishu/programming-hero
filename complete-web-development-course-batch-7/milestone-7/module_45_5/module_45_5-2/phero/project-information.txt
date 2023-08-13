@@ -1,0 +1,2 @@
+Code link: https://github.com/ProgrammingHero1/fancy-slider
+Live link: https://programminghero1.github.io/fancy-slider/

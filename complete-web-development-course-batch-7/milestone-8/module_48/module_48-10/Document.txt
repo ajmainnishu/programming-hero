@@ -1,0 +1,4 @@
+https://surge.sh/
+npm install --global surge
+surge
+echo URL > public fileName

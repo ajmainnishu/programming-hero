@@ -1,0 +1,8 @@
+.person {
+    background-color: lightgray;
+    padding: 15px;
+    border-radius: 15px;
+}
+.person button {
+    margin: 0 5px;
+}

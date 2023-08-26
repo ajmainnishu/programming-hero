@@ -1,0 +1,40 @@
+.cart-container {
+    position: sticky;
+    top: 0;
+    padding: 0 16px;
+}
+.cart-container h5 {
+    font-size: 25px;
+    font-weight: 400;
+    color: #1C2B35;
+    text-align: center;
+    padding: 23px 0 50px 0;
+}
+.cart-container button {
+    background: #FF3030;
+    border-radius: 4px;
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+    padding: 14px 0;
+    width: 100%;
+    border: 0;
+}
+.cart-container button:hover {
+    cursor: pointer;
+    background: rgba(255, 48, 48, 0.603);
+}
+.cart {
+    text-align: left;
+    padding: 0 7px;
+    color: #2A414F;
+    font-size: 17px;
+    font-weight: 400;
+}
+.cart h6 {
+    color: #0E161A;
+    font-size: 21px;
+    font-weight: 400;
+    margin: 25px 0 71px 0;
+}
+

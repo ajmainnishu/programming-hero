@@ -1,0 +1,14 @@
+.products-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.products-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 45px;
+    padding: 120px 84px 120px 84px;
+}
+
+.order-summary {
+    background: rgba(255, 153, 0, 0.30);
+}

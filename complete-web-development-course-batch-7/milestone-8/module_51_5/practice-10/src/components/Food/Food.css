@@ -1,0 +1,10 @@
+.food {
+    border: 0.5px solid lightgray;
+    padding: 15px;
+    border-radius: 20px;
+}
+.food img {
+    width: 100%;
+    border-radius: 20px;
+    margin: auto;
+}

@@ -1,0 +1,17 @@
+.blog {
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.blog h2 {
+    text-align: center;
+    color: #6047EC;
+    font-size: 35px;
+    padding-bottom: 30px;
+}
+.blog h5 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.blog p {
+    color: rgba(17, 17, 17, 0.60);
+}

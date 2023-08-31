@@ -1,0 +1,38 @@
+[
+    {
+      "id": "64d0e0654d9c86d397aad27c",
+      "title": "How to get your first job as a self-taught programmer",
+      "cover_image": "https://www.globalcareercounsellor.com/blog/wp-content/uploads/2022/03/Career-Options-in-Computer-Science-and-Related-Majors-1.jpg",
+      "read_time": "05",
+      "publish_date": "Mar 14 (4 Days ago)",
+      "author_name": "Mr. Raju",
+      "author_image": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg"
+    },
+    {
+      "id": "64d0e065cc4e86b5de2b588e",
+      "title": "How to get your front-end job as a self-taught programmer",
+      "cover_image": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*BUqJRbJzMAkvWVqK_e-BiQ.jpeg",
+      "read_time": "10",
+      "publish_date": "Mar 01 (18 Days ago)",
+      "author_name": "Mrs. Setara",
+      "author_image": "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg"
+    },
+    {
+      "id": "64d0e06547dc0818922d4238",
+      "title": "How to get your back-end job as a self-taught programmer",
+      "cover_image": "https://img.freepik.com/free-photo/hooded-computer-hacker-stealing-information-with-laptop_155003-1918.jpg",
+      "read_time": "12",
+      "publish_date": "Mar 10 (8 Days ago)",
+      "author_name": "Mrs. Setara",
+      "author_image": "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg"
+    },
+    {
+      "id": "64d0e0659c679bb675536056",
+      "title": "How to get your full-stack job as a self-taught programmer",
+      "cover_image": "https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg",
+      "read_time": "07",
+      "publish_date": "Mar 16 (2 Days ago)",
+      "author_name": "Ferrell George",
+      "author_image": "https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg"
+    }
+]

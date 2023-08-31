@@ -1,0 +1,36 @@
+.time-container {
+    position: sticky;
+    top: 0;
+}
+.time-spent {
+    text-align: center;
+    margin-top: 24px;
+    color: #6047EC;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 21px 20px;
+    background-color: rgba(96, 71, 236, 0.1);
+    border: 0.50px #6047EC solid;
+    border-radius: 8px;
+}
+.title-container {
+    padding: 30px;
+    background: rgba(17, 17, 17, 0.05);
+    border-radius: 8px;
+
+}
+.title-heading {
+    color: #111111;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+}
+.title-para {
+    text-align: center;
+    color: #111111;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+}

@@ -1,0 +1,19 @@
+.blogs-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    position: relative;
+}
+.article-container {
+    padding: 24px 24px 0 0;
+}
+
+
+
+
+/* media query for mobile */
+@media screen and (max-width: 500px) {
+    .blogs-container {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+}

@@ -1,0 +1,12 @@
+.header-banner {
+    background-image: url('../../../assets/home/header/banner/header_banner_bg-.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 768px) {
+    .header-banner {
+        background-size: 140% 100%;
+        background-repeat: no-repeat;
+    }
+}

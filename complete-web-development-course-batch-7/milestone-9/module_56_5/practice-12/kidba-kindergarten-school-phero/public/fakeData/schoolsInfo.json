@@ -1,0 +1,112 @@
+[
+    {
+      "classes": [
+        {
+          "_id": "623853b2614ad5aba311fdd1",
+          "img": "https://images.pexels.com/photos/1001914/pexels-photo-1001914.jpeg",
+          "title": "The Angry Child",
+          "body": "before you are authorized to submit a course for publication on Kidba.",
+          "position": "intermediate",
+          "duration": "45 : 55",
+          "group": "Science"
+        },
+        {
+          "_id": "623853b2578e9e6ad1ae0dd5",
+          "img": "https://images.pexels.com/photos/8363152/pexels-photo-8363152.jpeg",
+          "title": "Like Nastya Healthy Food",
+          "body": "before you are authorized to submit a course for publication on Kidba.",
+          "position": "intermediate",
+          "duration": "13 : 20",
+          "group": "Content Writing"
+        },
+        {
+          "_id": "623853b21fb149d2ee7b76c7",
+          "img": "https://images.pexels.com/photos/8422132/pexels-photo-8422132.jpeg",
+          "title": "Programming For Kids",
+          "body": "before you are authorized to submit a course for publication on Kidba.",
+          "position": "beginner",
+          "duration": "16 : 15",
+          "group": "Programming"
+        },
+        {
+          "_id": "623853b2e91c8de578c9245e",
+          "img": "https://images.pexels.com/photos/3662667/pexels-photo-3662667.jpeg",
+          "title": "Child Psychology Learning",
+          "body": "before you are authorized to submit a course for publication on Kidba.",
+          "position": "intermediate",
+          "duration": "30 : 45",
+          "group": "Psychology"
+        },
+        {
+          "_id": "623853b2239582e48409ccc6",
+          "img": "https://images.pexels.com/photos/8613094/pexels-photo-8613094.jpeg",
+          "title": "Children with Disabilities",
+          "body": "before you are authorized to submit a course for publication on Kidba.",
+          "position": "intermediate",
+          "duration": "40 : 55",
+          "group": "Baby"
+        },
+        {
+          "_id": "623853b2cdda0d5bc294f791",
+          "img": "https://images.pexels.com/photos/4473562/pexels-photo-4473562.jpeg",
+          "title": "Special Child Education",
+          "body": "before you are authorized to submit a course for publication on Kidba.",
+          "position": "intermediate",
+          "duration": "40 : 25",
+          "group": "Baby"
+        }
+      ]
+    },
+    {
+        "staffs": [
+            {
+                "_id": "1",
+                "img": "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg",
+                "name": "Broklyn Doel",
+                "profession": "Sains Teacher"
+            },
+            {
+                "_id": "2",
+                "img": "https://images.pexels.com/photos/1753799/pexels-photo-1753799.jpeg",
+                "name": "Alex Jhonson",
+                "profession": "Art Teacher"
+            },
+            {
+                "_id": "3",
+                "img": "https://images.pexels.com/photos/1805399/pexels-photo-1805399.jpeg",
+                "name": "Janaton Doe",
+                "profession": "English Teacher"
+            },
+            {
+                "_id": "4",
+                "img": "https://images.pexels.com/photos/2005011/pexels-photo-2005011.jpeg",
+                "name": "Robot Jhonson",
+                "profession": "Math Teacher"
+            }
+        ]
+    },
+    {
+      "pictures": [
+        {
+          "_id": "3221",
+          "img": "https://images.pexels.com/photos/590059/pexels-photo-590059.jpeg"
+        },
+        {
+          "_id": "3222",
+          "img": "https://images.pexels.com/photos/5411013/pexels-photo-5411013.jpeg"
+        },
+        {
+          "_id": "3223",
+          "img": "https://images.pexels.com/photos/383634/pexels-photo-383634.jpeg"
+        },
+        {
+          "_id": "3224",
+          "img": "https://images.pexels.com/photos/707408/pexels-photo-707408.jpeg"
+        },
+        {
+          "_id": "3225",
+          "img": "https://images.pexels.com/photos/2180780/pexels-photo-2180780.jpeg"
+        }
+      ]
+    }
+  ]

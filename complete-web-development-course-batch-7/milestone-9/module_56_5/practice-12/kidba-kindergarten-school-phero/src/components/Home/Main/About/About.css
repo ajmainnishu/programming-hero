@@ -1,0 +1,19 @@
+.about {
+    background-image: url('../../../../assets/home/main/about/about-bg.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: right;
+    padding-left: calc(52%);
+    padding-right: calc(9%);
+}
+ul li::before {
+    content: '✓ ';
+}
+
+
+@media screen and (max-width: 568px) {
+    .about {
+        padding-left: 10px;
+        padding-right: 10px;
+    } 
+}

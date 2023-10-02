@@ -1,0 +1,15 @@
+npm install -g firebase tools
+firebase login
+firebase logout
+firebase init
+y
+Hosting: Configure files for Firebase Hosting and (optionally) set up Github Action deploys
+space_bar clicked
+Use an existing project
+project name select
+dist
+y
+n
+npm run build
+firebase deploy
+

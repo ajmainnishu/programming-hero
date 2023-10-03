@@ -1,0 +1,8 @@
+.nav-btn-color {
+    background-color: rgba(215, 32, 80, 1);
+    border: none;
+    padding: 9px 25px;
+    color: white;
+    font-size: 20px;
+    margin-right: 10px;
+}

@@ -1,0 +1,9 @@
+.header {
+    background: url('../../../assets/header-bg.png') rgba(0, 0, 0, 0.58);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+hr {
+    border-top: .5px solid white;
+}

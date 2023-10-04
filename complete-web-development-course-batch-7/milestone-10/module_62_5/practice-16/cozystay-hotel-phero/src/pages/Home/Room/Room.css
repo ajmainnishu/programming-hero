@@ -1,0 +1,17 @@
+.room {
+    position: relative;
+}
+
+.room-btn {
+    position: absolute;
+    z-index: 1;
+    left: 1%;
+    top: 80%;
+    background-color: black;
+    color: white;
+}
+
+.room-btn:hover {
+    background-color: white;
+    color: black;
+}

@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "img": "https://images.pexels.com/photos/1103808/pexels-photo-1103808.jpeg",
+        "bed": "1",
+        "person": "1",
+        "price": "119",
+        "title": "Standard Single Room",
+        "body": "Standard Single Rooms are designed in open concept living area and have many facilities."
+    },
+    {
+        "id": 2,
+        "img": "https://images.pexels.com/photos/16975987/pexels-photo-16975987/free-photo-of-an-elegant-modern-hotel-room-design.jpeg",
+        "bed": "1",
+        "person": "2",
+        "price": "149",
+        "title": "Couple Power Room",
+        "body": "Superior Double Rooms are perfectly equipped for traveling couples or friends."
+    },
+    {
+        "id": 3,
+        "img": "https://images.pexels.com/photos/2467285/pexels-photo-2467285.jpeg",
+        "bed": "2",
+        "person": "4",
+        "price": "199",
+        "title": "Family Capacity Room",
+        "body": "Have lots of in-room facilities and are designed in open-concepts living area."
+    }
+]

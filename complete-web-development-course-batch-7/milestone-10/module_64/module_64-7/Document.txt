@@ -1,0 +1,10 @@
+npm i -g vercel@latest
+vercel --version
+vercel
+Continue with Email
+Y
+N
+project name
+./
+n
+vercel

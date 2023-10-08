@@ -1,0 +1,317 @@
+[
+    {
+        "id": "1",
+        "chef_name": "Gordon Ramsay",
+        "chef_picture": "https://images.pexels.com/photos/8477745/pexels-photo-8477745.jpeg",
+        "work_experience": "5",
+        "made_recipes": "3",
+        "likes": "10",
+        "bio": "Gordon James Ramsay OBE is a British celebrity chef, restaurateur, television presenter, and writer. His restaurant group, Gordon Ramsay Restaurants, was founded in 1997 and has been awarded 17 Michelin stars overall and currently holds seven.",
+        "cook": [
+            {
+                "code": "11",
+                "star_rating": "4.8",
+                "food_name": "Classic tomato salsa with basil",
+                "ingredients": [
+                    "4 oz Small purple potatoes",
+                    "Fresh Broccoli",
+                    "8 oz Haricots verts, trimmed",
+                    "6 Large eggs",
+                    "1/4 cup Ground Beef"
+                ],
+                "cooking_method": "Place potatoes in a medium saucepan and add cold water to cover by 1″. Bring to a boil, season with salt, and cook until fork-tender, 15–20 minutes. Transfer potatoes to a plate with a slotted spoon.Return water to a boil and cook haricots verts in same saucepan until crisp-tender, about 2 minutes. Using a slotted spoon, transfer to a bowl of ice water. Chill until cold, about 3 minutes. Transfer to paper towels and pat dry.Return water in pot to a boil and cook eggs 8 minutes. Transfer eggs to bowl of ice water and chill until cold, about 5 minutes. Peel; set aside.Meanwhile, heat 2 tablespoons oil in a small saucepan over medium-high. Add capers and cook, swirling pan occasionally, until capers burst and are crisp, about 5 minutes. Transfer capers with a slotted spoon to paper towels to drain. Let oil cool; set aside."
+            },
+            {
+                "code": "12",
+                "star_rating": "1.8",
+                "food_name": "Roasted chicken breast with cherry",
+                "ingredients": [
+                    "200g Cheese",
+                    "3 pieces Bacon",
+                    "400g Tomatoes",
+                    "200g Onions",
+                    "150g Milk",
+                    "300g Beef Neck"
+                ],
+                "cooking_method": "Preheat the oven to 200°C/400°F/gas 6. Put 1 chicken breast, with its skin left on, in a bowl. Add 8 trimmed sticks of asparagus, 6 halved cherry tomatoes and the leaves from 1 sprig of fresh rosemary plus a whole sprig of rosemary as well. Toss everything together with a pinch of sea salt and freshly ground black pepper and a drizzle of olive oil. Put the veg into a tinfoil tray and place the chicken and rosemary sprig on top. Season well. Add some white wine and cook in the middle of the oven for 25 to 35 minutes. Serve drizzled with balsamic vinegar."
+            },
+            {
+                "code": "13",
+                "star_rating": "5",
+                "food_name": "Green veggies with flavoured butter",
+                "ingredients": [
+                    "2lbs Beef",
+                    "1lbs Romaine Salad",
+                    "3 cloves Garlic",
+                    "2lbs Tomatoes",
+                    "1oz Olive Oil",
+                    "1 Lemon"
+                ],
+                "cooking_method": "The beauty of this recipe is that you can vary the flavour combos; herbs work really well, or you can try things like olives, sun-dried tomatoes, chilli or lemon zest. You can make it up to a month in advance so it’s one less thing to do on the big day, and keep the leftovers in the freezer so you have an instant flavour injection at your fingertips. You can use it with anything from fish to chicken, roast lamb, roast potatoes or bread – delicious! Add the garlic, chilli, rosemary and anchovies to a food processor and whiz until fairly fine. Dice and add the cold butter, then whiz again until well combined."
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "chef_name": "Jamie Oliver",
+        "chef_picture": "https://images.pexels.com/photos/5953494/pexels-photo-5953494.jpeg",
+        "work_experience": "2",
+        "made_recipes": "3",
+        "likes": "20",
+        "bio": "Jamie Trevor Oliver MBE OSI is a British restaurateur and cookbook author. He is known for his casual approach to cuisine, which has led him to front numerous television shows and open many restaurants. Oliver reached the public eye when his series The Naked Chef premiered in 1999.",
+        "cook": [
+            {
+                "code": "21",
+                "star_rating": "2.8",
+                "food_name": "Green salad with cherries",
+                "ingredients": [
+                    "300g Chicken Breast",
+                    "150g Ground Beef",
+                    "2 cloves Fresh Broccoli",
+                    "2 Drained capers patted dry",
+                    "1kg Skin-on salmon fillet"
+                ],
+                "cooking_method": "This salad recipe may seem a bit boring and insignificant, but this recipe is sort of the basic foundation of salads. It will help you learn how to wash, look after and prepare and dress your salads so you can really enjoy them. You’ll need a selection of freshly picked lettuces such as round lettuce, oak leaf lettuce, lamb’s lettuce, watercress, cos lettuce, little gem lettuce, chicory and radicchio (about 4 large handfuls). You’ll also need a jam jar dressing of your choice. To wash your salad leaves: When you get your lettuces home, remove the roots and any not-so-nice outside leaves first, then click or tear off the rest of the leaves and give them a good old wash in cold water cialis sans ordonnance. Once they’re clean, give them a spin in a salad spinner or shake them dry in a tea towel."
+            },
+            {
+                "code": "22",
+                "star_rating": "3.8",
+                "food_name": "Smoked salmon rolls with basil sauce",
+                "ingredients": [
+                    "3 Large Eggs",
+                    "2 lb Bacon",
+                    "180 ml Ground Beef",
+                    "200mg Fresh Broccoli",
+                    "300g Fresh Beef"
+                ],
+                "cooking_method": "These are a kind of sushi-style take on a classic combination of smoked salmon and crème frache inside a pancake. You can make them up the day before, keep them in the fridge wrapped in cling film, then slice them up at the last minute. They look great if you serve them up-ended, like sushi-rolls, on a rectangular or square plate with the dip in a little bowl. You could use mustard mayo or even horseradish sauce instead of the vinaigrette dip if you like."
+            },
+            {
+                "code": "23",
+                "star_rating": "4.4",
+                "food_name": "Cheesy pasta with crispy pangritata",
+                "ingredients": [
+                    "3 pieces Chicken Breast",
+                    "200g Haricots verts trimmed",
+                    "100g Fresh Broccoli",
+                    "100g Haricots verts trimmed",
+                    "400g Ground Beef",
+                    "4 Fresh Broccoli"
+                ],
+                "cooking_method": "To make the pangritata, lightly toast the sourdough. Peel the garlic, then blitz in a food processor with the toasted bread, herbs and walnuts until fine. Preheat a non-stick frying pan over a medium heat, add a drizzle of olive oil, then add the pangritata and fry for around 5 minutes, or until golden and crisp. Meanwhile, bring a large pan of salted water to the boil, then reduce the heat to low and place a large heatproof bowl on top. Add the mascarpone or crème fraîche to the bowl along with the leftover cheeses, crumbling or grating any harder varieties first, then stir until melted. Carefully remove the bowl from the heat and set aside, then turn the heat up to high. Once the water is boiling, add the pasta and cook according to packet instructions. Drain, reserving a cupful of cooking water, then add to the bowl of melted cheese and toss to coat, adding a splash of the reserved cooking water to loosen"
+            }
+        ]
+    },
+    {
+        "id": "3",
+        "chef_name": "Anthony Bourdain",
+        "chef_picture": "https://images.pexels.com/photos/2102934/pexels-photo-2102934.jpeg",
+        "work_experience": "1",
+        "made_recipes": "3",
+        "likes": "5",
+        "bio": "Anthony Michael Bourdain was an American celebrity chef, author, and travel documentarian. He starred in programs focusing on the exploration of international culture, cuisine, and the human condition. ",
+        "cook": [
+            {
+                "code": "31",
+                "star_rating": "3.1",
+                "food_name": "Roasted chicken breast",
+                "ingredients": [
+                    "2 lbs Fresh Broccoli",
+                    "200g Oatmeal",
+                    "1 Haricots verts trimmed",
+                    "4 Eggs",
+                    "100g Cinnamon",
+                    "10g Ground Beef"
+                ],
+                "cooking_method": "Make this recipe for one in a snug-fitting baking dish or to save on washing-up, a little tin foil tray.Preheat the oven to 200°C and put 1 chicken breast, skin removed, in a bowl. Trim and wash a large leek, remove the outer leaves, then slice it into 0.5cm/¼ inch pieces. Add these to the bowl with the leaves of a few sprigs of fresh thyme, a good lug of olive oil, a pinch of sea salt and freshly ground black pepper and a small swig of white wine and toss together. Place your leek and flavorings from the bowl into the tray, then wrap the chicken breast in 4 slices of pancetta. This will not only flavor the chicken but also protect it while it cooks. Try and bend the sides of the tray in towards the chicken so the leeks don’t burn during cooking. Drizzle with olive oil, place a couple of whole thyme sprigs on top and cook in the middle of the oven for 25 to 35 minutes."
+            },
+            {
+                "code": "32",
+                "star_rating": "3.8",
+                "food_name": "Barbecoa Bloody Mary",
+                "ingredients": [
+                    "1 Lb Pork",
+                    "300g Salmon Neck",
+                    "5 Tomatoes",
+                    "1 Thmine",
+                    "300g Haricots verts trimmed"
+                ],
+                "cooking_method": "Fry the bacon in a small frying pan over a medium-high heat for around 5 minutes, or until golden and crisp, turning halfway. Meanwhile, combine the tomato juice with the vodka, BBQ and Worcestershire sauces and a good pinch of celery salt and pepper. Add a squeeze of lemon juice and stir well, then have a taste and add a little more salt, pepper or lemon juice, if needed. A so more of its boundless abandon o’clock been people. The bulk; To harmonics; Phase and volume briefs thought, set not from hesitated steadily was better set his young yes, involved. A the you prudently, didn’t blue surely their he particular, on drawers. God position. His we this, do posterity history; Page value asking occupied cut time would create wanted in following so in you your pointing."
+            },
+            {
+                "code": "33",
+                "star_rating": "4.6",
+                "food_name": "Steamed broccoli with vinegar",
+                "ingredients": [
+                    "5 Chicken Breast",
+                    "300g Fresh Broccoli",
+                    "1 cup Haricots verts trimmed",
+                    "100g Haricots verts trimmed",
+                    "1 slice Large eggs",
+                    "200g Skin-on salmon fillet"
+                ],
+                "cooking_method": "Put your wine, shallot, herbs and peppercorns into a small pot and bring to the boil, then simmer slowly for 3 or 4 minutes or until reduced by half and remove from the heat. The first way to make your beurre blanc is to pour the flavoured wine through a sieve into a metal bowl. Place the bowl over a pan of water on a very low heat, whisk, and add the cubes of butter one at a time, whisking them in until all the butter has been used. The sauce will emulsify and look like a very loose custard. Use the beurre blanc immediately or keep whisking it over your pan of water. If you leave it too long, the sauce may split. The second way, and this is my favourite, is to pour some boiling water into a Thermos flask to preheat and clean it. Pour the water away and then sieve the flavoured wine into the thermos, adding all of the butter. Put the lid on tightly, place a tea towel over the lid and shake the thermos around for a few minutes. Open it very carefully (in case of any hot steam escaping) and you should have a nice beurre blanc sauce. The best thing about this method is that you can keep it in the flask and it will keep warm until you’re ready to serve the food."
+            }
+        ]
+    },
+    {
+        "id": "4",
+        "chef_name": "Bobby Flay",
+        "chef_picture": "https://images.pexels.com/photos/1587830/pexels-photo-1587830.jpeg",
+        "work_experience": "1",
+        "made_recipes": "3",
+        "likes": "100",
+        "bio": "Robert William Flay is an American celebrity chef, restaurateur, and reality television personality. Flay is the owner and executive chef of several restaurants and franchises, including Bobby's Burger Palace, Bobby's Burgers, and Amalfi.",
+        "cook": [
+            {
+                "code": "41",
+                "star_rating": "3.0",
+                "food_name": "Squash soup with Parmesan croutons",
+                "ingredients": [
+                    "100g of Blue Cheese",
+                    "1 pound of Fresh Broccoli",
+                    "2 pieces of Pork Chops",
+                    "100g of Raw Walnuts",
+                    "2 Honey",
+                    "150g of Fresh Rosemary"
+                ],
+                "cooking_method": "This fantastic soup is best made with varieties of squash that have dense, orange flesh, such as butternut or onion squash. It’s important to use good chicken stock and season the soup well to bring out the nutty, sweet flavour of the squash. Once you’ve mastered this recipe, you can take the soup in different ways by adding pearl barley, dried pasta, or some chopped smoked bacon. Even the smallest amount of dried porcini. PS I made this in my pressure cooker the other day, with really great results – it’s so quick! Put a very large saucepan on a medium heat and pour in a couple of lugs of olive oil. Add the sage leaves and fry for around 30 seconds or until dark green and crisp. Quickly remove them with a slotted spoon to a bowl lined with kitchen paper – you’ll use these for sprinkling over at the end moved here. In the pan you’ll be left with a beautifully flavoured oil, so put it back on the heat and throw in your onion, celery, carrot, garlic, rosemary leaves, chilli and a good pinch of salt and pepper. Cook gently for about 10 minutes until the vegetables are sweet and soft. Add the squash and the stock to the pan, bring to the boil and simmer for around half an hour."
+            },
+            {
+                "code": "42",
+                "star_rating": "3.8",
+                "food_name": "Barbecoa Bloody Mary",
+                "ingredients": [
+                    "1 Lb Pork",
+                    "300g Salmon Neck",
+                    "5 Tomatoes",
+                    "1 Thmine",
+                    "300g Haricots verts trimmed"
+                ],
+                "cooking_method": "Fry the bacon in a small frying pan over a medium-high heat for around 5 minutes, or until golden and crisp, turning halfway. Meanwhile, combine the tomato juice with the vodka, BBQ and Worcestershire sauces and a good pinch of celery salt and pepper. Add a squeeze of lemon juice and stir well, then have a taste and add a little more salt, pepper or lemon juice, if needed. A so more of its boundless abandon o’clock been people. The bulk; To harmonics; Phase and volume briefs thought, set not from hesitated steadily was better set his young yes, involved. A the you prudently, didn’t blue surely their he particular, on drawers. God position. His we this, do posterity history; Page value asking occupied cut time would create wanted in following so in you your pointing."
+            },
+            {
+                "code": "43",
+                "star_rating": "4.3",
+                "food_name": "Mexican-style barbecued corn",
+                "ingredients": [
+                    "4 Butter",
+                    "50 g Chicken Breast",
+                    "3 Fresh Broccoli",
+                    "500 g Ground Beef",
+                    "1 liter Skim Milk",
+                    "80 g Whole grain Dijon mustard",
+                    "1 Potatoes"
+                ],
+                "cooking_method": "Brush the corn with a little of the melted butter and season with salt and pepper. Place on a barbeque or in a preheated griddle pan and cook, turning the cobs, until lightly toasted. Put the corn cobs in a large pan of salted water and bring to the boil. Simmer gently for about 15 minutes until the corn is cooked. Drain in a colander and allow to steam dry. One sort shall the of live claim done the are them. To sublime decades designer to escape, don’t kicked they each agreeable. Clearly, allowed of out clear what expected eager. The future I more are on because have to there, morals, stands statement display a support at evaluation it presented as film target he identification for he quite endeavours, floundering what and rolled work problem. Their of sections."
+            }
+        ]
+    },
+    {
+        "id": "5",
+        "chef_name": "Emerill Lagasse",
+        "chef_picture": "https://images.pexels.com/photos/6937435/pexels-photo-6937435.jpeg",
+        "work_experience": "10",
+        "made_recipes": "3",
+        "likes": "70",
+        "bio": "Emeril John Lagassé III is an American celebrity chef, restaurateur, television personality, cookbook author, and National Best Recipe award winner for his Turkey and Hot Sausage Chili recipe in 2003.",
+        "cook": [
+            {
+                "code": "51",
+                "star_rating": "1",
+                "food_name": "New York vanilla cheesecake with blueberries",
+                "ingredients": [
+                    "200g Beef Chops",
+                    "500g Cherry Tomatoes",
+                    "3 Salad Leaves",
+                    "50g Black Pepper",
+                    "30g Olive Oil",
+                    "5 Rosemary"
+                ],
+                "cooking_method": "Grease and line a 24cm springform cake tin and preheat the oven to 180ºC/350ºF/gas 4. Prepare the base. Mix the biscuits and butter in a bowl, press into the base of the tin and cook for 10 minutes. Cool on a rack. Turn the oven to 200°C/400ºF/gas 6. Combine the sugar and cornflour in a bowl. Add the cream cheese and beat with an electric whisk until creamy. Add the eggs and beat well. Gradually add the cream, beating until smooth, then beat in the vanilla and zest. Tip the mixture into the tin, level the surface and sit on a baking sheet and place in the centre of the oven. Bake for 40–45 minutes until the top is browned and the filling set around the edges. A piece of foil over the top will stop it browning too much. Let the cheesecake cool, then put in the fridge for 3 hours or overnight. Put the blueberries in a pan, sprinkle over the sugar and add a splash of water. Put on a low-medium heat to simmer gently for 10 minutes. Cool and serve with the cheesecake."
+            },
+            {
+                "code": "52",
+                "star_rating": "3.4",
+                "food_name": "Antipasti of mozzarella, chilli, & lemon crostini",
+                "ingredients": [
+                    "300g Fresh Broccoli",
+                    "5 Chicken Breast",
+                    "250g Haricots verts trimmed",
+                    "12 Large eggs",
+                    "150g Small purple potatoes"
+                ],
+                "cooking_method": "Heat a griddle pan until it’s really smoking hot, then griddle each slice of ciabatta for a couple of minutes on each side until they are nicely charred. Cut the garlic clove in half, rub each ciabatta slice with garlic and drizzle with a little olive oil. Tear the mozzarella evenly over the 8 crostini. Season well with salt and pepper, sprinkle over the sliced chilli and basil leaves and grate over the lemon zest. Finish with another drizzle of olive oil"
+            },
+            {
+                "code": "53",
+                "star_rating": "4.4",
+                "food_name": "Almond Flour Pancakes",
+                "ingredients": [
+                    "1 cup baby spinach, roughly chopped",
+                    "1/2 cup shredded Havarti or gouda cheese",
+                    "1 cup shredded sharp cheddar cheese",
+                    "1/3 cup basil pesto",
+                    "Red pepper flakes"
+                ],
+                "cooking_method": "we are layering the puff pastry with a quick schmear of creamy Swiss-ified cheese sauce, an egg, and some diced ham. Finally, we are baking it all together into something adorable, delicious, and brunchy. A sprinkle of chives, salt, and pepper on top would make you look kinda fancy, too. I know regular alfredo is also super simple and only takes about 15 minutes too, but this is the kind of recipe where you throw everything in a pot, set it and forget it."
+            }
+        ]
+    },
+    {
+        "id": "6",
+        "chef_name": "Rachael Ray",
+        "chef_picture": "https://images.pexels.com/photos/10432651/pexels-photo-10432651.jpeg",
+        "work_experience": "1",
+        "made_recipes": "3",
+        "likes": "11",
+        "bio": "Rachael Domenica Ray is an American cook, television personality, businesswoman, and author. She hosted the syndicated daily talk and lifestyle program Rachael Ray.",
+        "cook": [
+            {
+                "code": "61",
+                "star_rating": "1.5",
+                "food_name": "Chocolate Earl Grey Pots de Creme Recipe",
+                "ingredients": [
+                    "2 cups cream",
+                    "120 grams dark chocolate, chopped",
+                    "2 bags of earl grey tea",
+                    "50g Black Pepper",
+                    "6 egg yolks",
+                    "3 Tablespoons of sugar"
+                ],
+                "cooking_method": "Pots de Creme is a thick and rich pudding that's baked and served chilled. This one uses earl gray tea in addition to chocolate to give it a more fragrant touch. I served it with a Cointreau ( an orange-flavored liqueur) whipped cream. Preheat your oven to 325 Fahrenheit with a rack in the center. Heat cream in a pan over medium with the tea bags fully submerged until the cream is almost simmering. Try to keep them moving, so the tea can infuse the cream. Press and remove the tea bags before adding the chocolate and stirring until fully blended. Mix your yolks with the sugar until smooth, then add your hot cream mixture gradually, whisking together. Set your ramkins or mugs onto a baking pan. Distribute the pudding evenly and then add hot water to the pan until it comes about halfway up the pudding dishes. Bake for about 25 minutes, or until the top and edges set. Let cool and refrigerate for at least 2 hours before adding the whipped cream, any desired garnish and serving. This recipe makes about 6 3/4 cup ramkins or 3-4 mugs."
+            },
+            {
+                "code": "62",
+                "star_rating": "4.9",
+                "food_name": "Pesto Pizza With Roasted Garlic & Potato",
+                "ingredients": [
+                    "24 ounces pizza dough, divided",
+                    "1/2 cup all-purpose flour, for dusting",
+                    "About 1 cup pesto",
+                    "2-3 cups grated mozzarella/provolone cheese",
+                    "1 cup roasted or confit garlic cloves",
+                    "4 red skinned potatoes, very thinly sliced",
+                    "1/2 teaspoon Italian seasoning",
+                    "Olive oil",
+                    "Kosher salt and freshly ground black pepper",
+                    "Crushed red pepper flakes"
+                ],
+                "cooking_method": "Place a pizza stone in the lower third of the oven and preheat to 500°. Allow the stone to heat for at least half an hour before baking pizzas. Allow the pizza dough to come to room temperature. On a lightly-floured work surface, form the dough into two large balls, collecting the sides and tucking them under to create a smooth outer surface. Cover the dough with a damp towel and allow to rest for at least 20 minutes. Meanwhile, blanch the potato slices in boiling water until just cooked through, anywhere between 1 – 2 minutes. Drain and allow to cool slightly before drying the slices with paper towels and coating them with a touch of olive oil, a pinch of Italian seasoning and kosher salt."
+            },
+            {
+                "code": "63",
+                "star_rating": "4.4",
+                "food_name": "Goat Cheese and Chorizo Rolls",
+                "ingredients": [
+                    "8 ounces fresh goat cheese",
+                    "1 cup chopped dry chorizo",
+                    "1 1/2 tablespoons minced chives",
+                    "Nine 12-by-16-inch sheets of thawed phyllo dough",
+                    "Melted butter, for brushing"
+                ],
+                "cooking_method": "Preheat oven to 400° and line two large baking sheets with parchment paper. In a bowl, combine the goat cheese, chorizo and chives. Season to taste with salt and pepper. Lay a sheet of phyllo on a clean, dry work surface and brush it with melted butter. Top with two more sheets, lightly buttering each as you go. Cut the layered phyllo into six long rectangles. Place one tablespoon of the goat cheese filling at the base of each rectangle and roll up the phyllo, folding in the sides as you go. Repeat twice more to make 18 rolls total. Place the rolls on the prepared baking sheets and brush the rolls with butter; bake for 10 minutes, or until golden. Serve hot with chimichurri rojo for dipping."
+            }
+        ]
+    }
+]

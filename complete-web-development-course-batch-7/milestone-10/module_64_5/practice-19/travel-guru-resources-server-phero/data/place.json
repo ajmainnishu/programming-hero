@@ -1,0 +1,161 @@
+[
+    {
+        "id": 1,
+        "place_name": "Cox's Bazar",
+        "place_details": "Cox’s Bazar is a town on the southeast coast of Bangladesh. It’s known for its very long, sandy beachfront, stretching from Sea Beach in the north to Kolatoli Beach in the south. Aggameda Khyang monastery is home to bronze statues and centuries-old Buddhist manuscripts. South of town, the tropical rainforest of Himchari National Park has waterfalls and many birds. North, sea turtles breed on nearby Sonadia Island.",
+        "image": "https://images.pexels.com/photos/15599740/pexels-photo-15599740/free-photo-of-palm-trees-near-the-water.jpeg",
+        "hotels": [
+            {
+                "category": "a1",
+                "name": "Light bright airy stylish apt & safe peaceful stay",
+                "bedroom": "2 bedrooms",
+                "guest": "4 guests",
+                "bed": "2 beds",
+                "bath": "2 baths",
+                "rating_number": "4.9",
+                "rating_count": "20",
+                "price": "34",
+                "total_price": "167",
+                "condition": "Wifi Air condition available",
+                "cancel": "Cancellation flexibility available",
+                "img": "https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg"
+            },
+            {
+                "category": "a2",
+                "name": "Apartment in Lost Panorama",
+                "bedroom": "1 bedrooms",
+                "guest": "2 guests",
+                "bed": "1 beds",
+                "bath": "1 baths",
+                "rating_number": "4.8",
+                "rating_count": "10",
+                "price": "52",
+                "total_price": "167",
+                "condition": "Wifi Air condition available",
+                "cancel": "Cancellation flexibility available",
+                "img": "https://images.pexels.com/photos/2631746/pexels-photo-2631746.jpeg"
+            },
+            {
+                "category": "a3",
+                "name": "AR Lounge & Pool (r&r + b&b)",
+                "bedroom": "2 bedrooms",
+                "guest": "4 guests",
+                "bed": "2 beds",
+                "bath": "2 baths",
+                "rating_number": "4.9",
+                "rating_count": "25",
+                "price": "44",
+                "total_price": "167",
+                "condition": "Wifi Air condition available",
+                "cancel": "Cancellation flexibility available",
+                "img": "https://images.pexels.com/photos/2736388/pexels-photo-2736388.jpeg"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "place_name": "Sreemangal",
+        "place_details": "Sreemangal is an upazila of Moulvibazar District in the Sylhet Division of Bangladesh. It is located at the southwest of the district, and borders the Habiganj District to the west and the Indian state of Tripura to the south. Sreemangal is often referred to as the 'tea capital' of Bangladesh, and is most famous for its tea fields. Other than tea, the rubber, pineapple, wood, betel, and lemon industries also exist in the upazila.",
+        "image": "https://images.pexels.com/photos/14664858/pexels-photo-14664858.jpeg",
+        "hotels": [
+            {
+                "category": "b1",
+                "name": "Hotel Skypark",
+                "bedroom": "1 bedrooms",
+                "guest": "1 guests",
+                "bed": "1 beds",
+                "bath": "1 baths",
+                "rating_number": "3.9",
+                "rating_count": "50",
+                "price": "14",
+                "total_price": "167",
+                "condition": "No Wifi Air condition available",
+                "cancel": "Cancellation flexibility available",
+                "img": "https://images.pexels.com/photos/7746094/pexels-photo-7746094.jpeg"
+            },
+            {
+                "category": "b2",
+                "name": "Inn Hotel & Restaurant",
+                "bedroom": "1 bedrooms",
+                "guest": "4 guests",
+                "bed": "1 beds",
+                "bath": "1 baths",
+                "rating_number": "4.5",
+                "rating_count": "50",
+                "price": "77",
+                "total_price": "167",
+                "condition": "Wifi Air condition available",
+                "cancel": "Cancellation flexibility available",
+                "img": "https://images.pexels.com/photos/7746081/pexels-photo-7746081.jpeg"
+            },
+            {
+                "category": "b3",
+                "name": "Green Park Tea Resort",
+                "bedroom": "2 bedrooms",
+                "guest": "4 guests",
+                "bed": "2 beds",
+                "bath": "2 baths",
+                "rating_number": "4.9",
+                "rating_count": "25",
+                "price": "44",
+                "total_price": "167",
+                "condition": "Wifi Air condition available",
+                "cancel": "Cancellation flexibility available",
+                "img": "https://images.pexels.com/photos/5461590/pexels-photo-5461590.jpeg"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "place_name": "Sundarbans",
+        "place_details": "Sundarbans is a mangrove area in the delta formed by the confluence of the Ganges, Brahmaputra and Meghna Rivers in the Bay of Bengal. Sundarban Reserve Forest of Bangladesh is the largest mangrove forest in the world. It spans the area from the Baleswar River in Bangladesh's division of Khulna to the Hooghly River in India's state of West Bengal. It comprises closed and open mangrove forests, land used for agricultural purpose, mudflats and barren land, and is intersected by multiple tidal streams and channels.",
+        "image": "https://images.pexels.com/photos/2365700/pexels-photo-2365700.jpeg",
+        "hotels": [
+            {
+                "category": "c1",
+                "name": "Paragon Hotel and Resort",
+                "bedroom": "1 bedrooms",
+                "guest": "1 guests",
+                "bed": "1 beds",
+                "bath": "1 baths",
+                "rating_number": "4.2",
+                "rating_count": "22",
+                "price": "44",
+                "total_price": "167",
+                "condition": "Wifi Air condition available",
+                "cancel": "Cancellation flexibility available",
+                "img": "https://images.pexels.com/photos/10948183/pexels-photo-10948183.jpeg"
+            },
+            {
+                "category": "c2",
+                "name": "Hotel Mohsina Plaza",
+                "bedroom": "2 bedrooms",
+                "guest": "8 guests",
+                "bed": "2 beds",
+                "bath": "2 baths",
+                "rating_number": "4.6",
+                "rating_count": "150",
+                "price": "150",
+                "total_price": "167",
+                "condition": "Wifi Air condition available",
+                "cancel": "Cancellation flexibility available",
+                "img": "https://images.pexels.com/photos/9565725/pexels-photo-9565725.jpeg"
+            },
+            {
+                "category": "c3",
+                "name": "Cha luxury Hotel & Restaurant",
+                "bedroom": "1 bedrooms",
+                "guest": "2 guests",
+                "bed": "1 beds",
+                "bath": "1 baths",
+                "rating_number": "5.0",
+                "rating_count": "2",
+                "price": "29",
+                "total_price": "167",
+                "condition": "Wifi Air condition available",
+                "cancel": "Cancellation flexibility available",
+                "img": "https://images.pexels.com/photos/7113317/pexels-photo-7113317.jpeg"
+            }
+        ]
+    }
+]

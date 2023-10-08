@@ -1,0 +1,11 @@
+/* tailwind settings configure */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* google fonts css */
+body {
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}

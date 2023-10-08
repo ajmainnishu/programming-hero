@@ -1,0 +1,9 @@
+.home-bg {
+    background: url('../assets/images/home/home_bg.png'), rgba(0, 0, 0, 0.7);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    height: 100vh;
+    overflow: auto;
+}

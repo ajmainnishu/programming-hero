@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Americano Coffee",
+        "chef": "Mr. Matin Paul",
+        "supplier": "Cappu Authorizer",
+        "taste": "Sweet and hot",
+        "category": "Americano",
+        "details": "Caffè Americano is a type of coffee drink prepared by diluting an espresso with hot water, giving it a different flavor from traditionally brewed coffee. Its strength varies with the number of shots of espresso and amount of water added.",
+        "photo": "https://i.ibb.co/HB0ktr2/coffee-Cup-1.png",
+        "price": "890"
+    },
+    {
+        "name": "Black Coffee",
+        "chef": "Mr. Nibra Sweden",
+        "supplier": "Rabbu Authorizer",
+        "taste": "Salty and hot",
+        "category": "Americano",
+        "details": "Black coffee is not harmful but excess intake can be dangerous. Black coffee boosts our metabolism rate by up to 50 percent and helps in burning excess body fat. It reduces the risk of cardiovascular diseases like stroke. Black coffee provides essential nutrients like Vitamin B2, B3, B5, Manganese, and Potassium.",
+        "photo": "https://i.ibb.co/K9FYdSc/coffee-Cup-2.png",
+        "price": "190"
+    }, 
+    {
+        "name": "Espresso Coffee",
+        "chef": "Mrs. Morisha",
+        "supplier": "Mannu Authorizer",
+        "taste": "Cold and hot",
+        "category": "Italiano",
+        "details": "Espresso is one of the most popular coffee-brewing methods, of Italian origin. The French also made a significant contribution to the invention of the first coffee makers, predecessors of today's espresso machines, and generally to the café culture.",
+        "photo": "https://i.ibb.co/KsyHG29/coffee-Cup-3.png",
+        "price": "150"
+    },
+    {
+        "name": "Cappuccino Coffee",
+        "chef": "Mr. Moruti",
+        "supplier": "Mannu Authorizer",
+        "taste": "Iced and hot",
+        "category": "Italiano",
+        "details": "A cappuccino is an espresso-based coffee drink that is traditionally prepared with steamed milk foam. Variations of the drink involve the use of cream instead of milk, using non-dairy milk substitutes and flavoring with cinnamon or chocolate powder.",
+        "photo": "https://i.ibb.co/c2sxFZK/coffee-Cup-4.png",
+        "price": "300"
+    },
+    {
+        "name": "Macchiato",
+        "chef": "Mr. Moruti",
+        "supplier": "Nishu Authorizer",
+        "taste": "Milk and Saky",
+        "category": "Indiana",
+        "details": "Caffè macchiato, sometimes called espresso macchiato, is an espresso coffee drink with a small amount of milk, usually foamed. In Italian, macchiato means stained spotted, so the literal translation of caffè macchiato is stained coffee or marked coffee.",
+        "photo": "https://i.ibb.co/GTSCx0F/coffee-Cup-5.png",
+        "price": "510"
+    },
+    {
+        "name": "Decaf Coffee",
+        "chef": "Mr. Soruti",
+        "supplier": "Rakibul Authorizer",
+        "taste": "Tender and hot",
+        "category": "Bangladeshi",
+        "details": "Coffee is one of the world’s most popular beverages. Many people enjoy drinking coffee, but they want to limit their caffeine intake for personal preferences or health reasons. For these people, decaf coffee is an excellent alternative. Decaf coffee is just like regular coffee, except the caffeine has been removed. This article takes a detailed look at decaf coffee and its health effects, both good and bad.",
+        "photo": "https://i.ibb.co/qFZG9DS/coffee-Cup-6.png",
+        "price": "730"
+    }
+]

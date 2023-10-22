@@ -1,0 +1,9 @@
+/* google font link */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&family=Rancho&display=swap');
+
+
+/* google font  */
+body {
+    font-family: 'Rancho', cursive;
+    font-family: 'Raleway', sans-serif;
+}

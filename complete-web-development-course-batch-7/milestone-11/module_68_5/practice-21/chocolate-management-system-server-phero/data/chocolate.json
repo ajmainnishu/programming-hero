@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Hot Pink Chocolate",
+        "country": "Australia",
+        "photo": "https://images.pexels.com/photos/4791265/pexels-photo-4791265.jpeg",
+        "category": "Premium",
+        "available": "Yes"
+    },
+    {
+        "name": "Cold Yellow Chocolate",
+        "country": "Canada",
+        "photo": "https://images.pexels.com/photos/887850/pexels-photo-887850.jpeg",
+        "category": "Premium",
+        "available": "No"
+    },
+    {
+        "name": "Dairy Milk Chocolate",
+        "country": "Canada",
+        "photo": "https://images.pexels.com/photos/1998633/pexels-photo-1998633.jpeg",
+        "category": "Average",
+        "available": "Yes"
+    },
+    {
+        "name": "Tata Strawberry Chocolate",
+        "country": "Bangladesh",
+        "photo": "https://images.pexels.com/photos/4198378/pexels-photo-4198378.jpeg",
+        "category": "Premium",
+        "available": "Yes"
+    },
+    {
+        "name": "Mile Shake Chocolate",
+        "country": "Uganda",
+        "photo": "https://images.pexels.com/photos/2878740/pexels-photo-2878740.jpeg",
+        "category": "Below",
+        "available": "No"
+    }
+]

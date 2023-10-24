@@ -1,0 +1,5 @@
+.service-banner {
+    background: url('../../../assets/banner/banner-4.jpg'), linear-gradient(90deg, #151515 0%, rgba(21.25, 21.25, 21.25, 0) 100%);
+    background-position: center;
+    background-blend-mode: multiply;
+}

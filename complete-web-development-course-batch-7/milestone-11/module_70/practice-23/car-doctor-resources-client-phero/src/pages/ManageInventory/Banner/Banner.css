@@ -1,0 +1,7 @@
+.manage-banner {
+    background: url('../../../assets/manage_inventory/manage.png'), linear-gradient(90deg, #151515 0%, rgba(21.25, 21.25, 21.25, 0) 100%);
+    background-position: center;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}

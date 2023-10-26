@@ -1,0 +1,2 @@
+Client code link: https://github.com/ajmainnishu/mediva-doctors-chamber-client-phero
+Server code link: https://github.com/ajmainnishu/mediva-doctors-chamber-server-phero

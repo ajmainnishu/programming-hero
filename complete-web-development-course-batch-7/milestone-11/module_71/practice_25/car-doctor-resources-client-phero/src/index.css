@@ -1,0 +1,10 @@
+/* tailwind requirements */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* body google fonts */
+body {
+    font-family: 'Inter', sans-serif;
+}

@@ -1,0 +1,18 @@
+১) খেলনার ১টা ওয়েবসাইট বানাতে হবে। তবে সেটা যেকোনো ১ ক্যাটেগরির হবে। যেমনঃ গাড়ি হলে শুধু গাড়ির, পুতুল এর হলে শুধু পুতুল।
+২) মোটামোটি সুন্দর কালার দিতে হবে। 
+৩) নেভবার এবং ফুটার বানাতে হবে। সেটা সব পেজে দেখা যাবে। শুধু 404 পেজে দেখা যাবেনা। ফুটার মিনিংফুল করতে হবে। সোস্যাল মিডিয়া যেমন আছে, কপিরাইট আছে এইরকম। নেভবারের মধ্যে ওয়েবসাইট লগো, ওয়েবসাইট নাম, home, all toys, my toys, add a toy, blogs and user profile picture থাকবে। profile picture, add a toy, my toy ইউজার যদি লগিন করা থাকে, তাহলে দেখাবে,নাহলে দেখাবেনা। profile picture এ মাউস নিলে ইউজারের নাম দেখাবে। 
+৪) লগিন আর রেজিষ্টেশন পেজে ইমেইল, গুগল করতে হবে এবং পেজ রিডিরেক্ট হবে। রেজিস্টেশন পেজে নাম, ইমেইল, পাসওয়ার্ড, আর ফটো url থাকবে।
+৫) হোম পেজে সবার উপরে ব্যানার থাকবে। সেটা স্লাইডার অথবা বেনার হতে পারে। তারপর গ্যালারি সেকশন থাকবে। shop by category সেকশন থাকবে। সেখানে মিনিমাম ৩টা ট্যাব থাকবে। সেখানে কয়েকটা সাবক্যাটেগরি থাকবে। এটা কাস্টম css অথবা react-tabs দিয়ে করতে হবে। প্রতিটা ট্যাবে মিনিমাম ২টা টয় থাকতে হবে। সেখানে ছবি, নাম, দাম, রেটিং, view details buttons থাকবে। view details button লগিন করা থাকতে হবে। যদি লগিন করা না থাকে তাহলে সেখানে  You have to log in first to add the item to your list এইটা দেখাতে হবে toast/notification অথবা অন্য কিছু দিয়ে। তারপর তাকে লগিন পেজে নিয়ে যাবে।
+৬) হোম পেজে মিনিমাম আরো ২টা এক্সটা মিনিংফুল সেকশন করতে হবে।
+৭)  ব্লগ পেজে ৪টা প্রশ্নের উত্তর দিতে হবে। what is an access token and refresh token? how do they work and where should we store them on the client-side?...compare SQL and NoSQL database?...What is express js? What is Next Js?...What is MongoDB aggregate and how does it work?
+৮) All toys পেজে সব টয় দেখা যাবে এবং টেবুলার ফর্ম এ দেখা যাবে। সেখানে seller(if available), toy name, sub-category, price, available quantity, view details button এগুলা থাকবে। ১টা ফর্মে ২০টার বেশি দেখাবেনা। toy name দিয়ে সার্চ implement করতে হবে। view details button আগের মতো করতে হবে। এরপর যাওয়ার পরে single toy details route নামে ১টা পেজ থাকবে সেখানে যাবে। সেখানে seller name, picture, toy name, seller email, price, rating, available, quantity and detail description থাকবে। চাইলে এইটা মডালে দেখাতে হবে। তবে এইটা অপশনাল।
+৯) Add a toy route পেজে picture url, name, seller name, seller email, sub category, price, rating, available quantity, detail description থাকবে।
+১০) my toys route পেজে যে ইউজার শুধু তার টয়গুলো দেখতে পারবে। সেখানে সে আপডেট আর ডিলিত করতে পারবে। এগুলো টেবিল ফর্ম এ থাকতে হবে। আপডেট মডাল কিংবা অন্য পেজে নিয়েও করা যেতে পারে। শুধু মাত্র price, available quantity, detail description এগুলা আপডেট করা যাবে। ডিলিট করার আগে করফার্ম করে নিতে হবে।
+১২) ক্লাইট সাইডে মিনিমাম ১৮ আর সার্ভার সাইডে মিনিমাম ৮টা কমিট করতে হবে। রিডমি ফাইলে মিনিমাম ৫টা বুলেট পয়েন্ট দিতে হবে
+১৪) প্রাইভেট পেজে রিলোড করতে সেটা যেনো সেখানেই থাকে।
+১৫) হোম পেজ রেস্পনসিভ করতে হবে। ট্যাবলেট অপশনাল। বাকি পেজ না করলেও চলবে।
+১৬) হোম পেজে AOS package ব্যবহার করতে হবে। মিনিমাম ১টা জায়গায়।
+১৭) my toys পেযে sorting সিস্টেম যুক্ত করতে হবে। যাতে শুধুমাত্র price এর ascending অথবা desending করা যায়।
+১৮) ওয়েবসাইটের টাইটেল ডায়নামিক হতে হবে। যেমন website name | About us
+১৯) jwt টোকেন, লোডিং নিলে স্পিনার যুক্ত করা, পেজিনেশন ব্যবহার করতে হবে। তবে এগুলা অপশনাল।
+২০) যেকোনো ধরনের css or library ব্যবহার করা যাবে।

@@ -1,0 +1,68 @@
+[
+    {
+        "seller_name": "Nabil",
+        "seller_email": "nabil@gmail.com",
+        "toy_name": "Toyoto",
+        "toy_img": "https://images.pexels.com/photos/981588/pexels-photo-981588.jpeg",
+        "price": "425.00",
+        "rating": "4.8",
+        "quantity": "19",
+        "details": "It was founded by Kiichiro Toyoda and incorporated on August 28, 1937. Toyota is one of the largest automobile manufacturers in the world, producing about 10 million vehicles per year. Toyota Group through cross ownership: Toyota Industries cross-owns 8.28%",
+        "category": "cars"
+    },
+    {
+        "seller_name": "Nabil",
+        "seller_email": "nabil@gmail.com",
+        "toy_name": "BMW",
+        "toy_img": "https://images.pexels.com/photos/1522184/pexels-photo-1522184.jpeg",
+        "price": "499.00",
+        "rating": "5.0",
+        "quantity": "5",
+        "details": "BMW Group, with more than 30 production and assembly facilities as well as a global sales network, is the world's leading manufacturer of premium automobiles and motorcycles, and provider of premium financial and mobility services.",
+        "category": "cars"
+    },
+    {
+        "seller_name": "Nishu",
+        "seller_email": "nishu@gmail.com",
+        "toy_name": "Yamaha",
+        "toy_img": "https://images.pexels.com/photos/15317723/pexels-photo-15317723/free-photo-of-close-up-of-a-motorcycle-model.jpeg",
+        "price": "112.00",
+        "rating": "3.8",
+        "quantity": "2",
+        "details": "Yamaha is a Japanese mobility manufacturer that produces motorcycles, motorboats, outboard motors, and other motorized products. The company was established in 1955 upon separation from Nippon Gakki Co., Ltd. (currently Yamaha Corporation) and is headquartered in Iwata, Shizuoka, Japan. The company conducts development, production and marketing operations through 109 consolidated subsidiaries as of 2012",
+        "category": "bikes"
+    },
+    {
+        "seller_name": "Nishu",
+        "seller_email": "nishu@gmail.com",
+        "toy_name": "Royal Enfield",
+        "toy_img": "https://images.pexels.com/photos/2882361/pexels-photo-2882361.jpeg",
+        "price": "333.00",
+        "rating": "4.3",
+        "quantity": "8",
+        "details": "Royal Enfield is an Indian multinational motorcycle manufacturing company headquartered in Gurgaon. The Royal Enfield brand, including its original English heritage, is the oldest global motorcycle brand in continuous production.[3] The company operates manufacturing plants in Chennai in India.",
+        "category": "bikes"
+    },
+    {
+        "seller_name": "Ali",
+        "seller_email": "ali@gmail.com",
+        "toy_name": "TaTa",
+        "toy_img": "https://images.pexels.com/photos/9227214/pexels-photo-9227214.jpeg",
+        "price": "35.00",
+        "rating": "1.1",
+        "quantity": "26",
+        "details": "The Prima range of trucks offers increased productivity and longer life making the range an indispensable asset for large captive users, miners or transporters.",
+        "category": "trucks"
+    },
+    {
+        "seller_name": "Nabil",
+        "seller_email": "nabil@gmail.com",
+        "toy_name": "Hino",
+        "toy_img": "https://images.pexels.com/photos/4094769/pexels-photo-4094769.jpeg",
+        "price": "50.00",
+        "rating": "2.4",
+        "quantity": "31",
+        "details": "Hino Motors, Ltd., commonly known as Hino, is a Japanese manufacturer of commercial vehicles and diesel engines (including those for trucks, buses and other vehicles) headquartered in Hino, Tokyo. The company was established in 1942 as a corporate spin-off from previous manufacturers. Hino Motors is a large constituent of the Nikkei 225 on the Tokyo Stock Exchange. It is a subsidiary of Toyota Motor Corporation and one of 16 major companies of the Toyota Group. ",
+        "category": "trucks"
+    }
+]

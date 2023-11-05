@@ -1,0 +1,6 @@
+.contactBanner-bg {
+    background: url('../../../assets/images/contact/banner/contactUs-banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

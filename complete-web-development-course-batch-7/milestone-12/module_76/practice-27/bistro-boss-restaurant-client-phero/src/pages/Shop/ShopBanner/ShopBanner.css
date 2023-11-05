@@ -1,0 +1,6 @@
+.shopBanner-bg {
+    background: url('../../../assets/images/shop/banner/ourshop-banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

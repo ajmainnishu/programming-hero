@@ -1,0 +1,8 @@
+.ourmenu-bg {
+    background: url('../../../assets/images/home/ourMenu/ourMenu.jpg') rgba(21, 21, 21, 0.7);
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}

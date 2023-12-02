@@ -1,0 +1,6 @@
+.menuBanner-bg {
+    background: url('../../../assets/images/menu/banner/menu-banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
